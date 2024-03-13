@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== FLATICON ===============-->
+  <link rel="stylesheet"
+    href="https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--=============== SWIPER CSS ===============-->
+
+  <head>
+    <!-- Other head elements -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  </head>
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"> -->
+
+  <!-- Vendor CSS Files -->
+  <!-- <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>Customised photo frame Website</title>
+
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header">
+    <div class="header__top">
+      <div class="header__container container">
+        <div class="header__contact">
+          <span><i class="fa-brands fa-whatsapp"></i></span>
+          <span><i class="fa-brands fa-facebook-f"></i>(+91 9144493444)</span>
+        </div>
+        <!-- <p class="header__alert-news">
+        </p> -->
+        <div>
+          <a href="login-register.html" class="header__top-action"><i class="bi bi-person"></i>
+            Log In / Sign Up
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo" data-aos="fade-right">
+        <img class="nav__logo-img" src="assets/img/Untitled_logo_2_free-file.jpg" alt="website logo" />
+        <!-- <p class="onetext">REPLICA</p>
+        <p class="twotext">GIFTS</p> -->
+      </a>
+      <div class="nav__menu" id="nav-menu">
+        <div class="nav__menu-top">
+          <a href="index.html" class="nav__menu-logo">
+            <img src="./assets/img/logo.svg" alt="">
+          </a>
+          <div class="nav__close" id="nav-close">
+            <i class="fi fi-rs-cross-small"></i>
+          </div>
+        </div>
+        <ul class="nav__list" data-aos="fade-left">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="accounts.html" class="nav__link">My Account</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link">Categories</a>
+            <div id="dropdown">
+              <a href="">Photo Prints</a>
+              <a href="">Canvas Photo Prints</a>
+              <a href="">Acrylic Photo</a>
+              <a href="">Rare God Photos</a>
+              <a href="">Scenery Photos</a>
+              <a href="">Acrylic Photo Magnet</a>
+              <a href="">Name Badges</a>
+            </div>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+          <!-- <li class="nav__item">
+            <a href="login-register.html" class="nav__link">Login</a>
+          </li> -->
+        </ul>
+        <div class="header__search" data-aos="fade-left">
+          <input type="text" placeholder="Search For Items..." class="form__input" />
+          <button class="search__btns">
+            <img src="assets/img/search.png" alt="search icon" />
+          </button>
+        </div>
+      </div>
+      <div class="header__user-actions" data-aos="fade-left">
+        <a href="wishlist.html" class="header__action-btn" title="Wishlist">
+          <img src="assets/img/icon-heart.svg" alt="" />
+          <span class="count">3</span>
+        </a>
+        <a href="cart.html" class="header__action-btn" title="Cart">
+          <img src="assets/img/icon-cart.svg" alt="" />
+          <span class="count">3</span>
+        </a>
+        <div class="header__action-btn nav__toggle" id="nav-toggle">
+          <img src="./assets//img/menu-burger.svg" alt="">
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+
+
+    <!--=============== HOME ===============-->
+    <section class="home section--lg" data-aos="fade-up">
+      <div class="home__container container grid">
+        <div class="home__content">
+          <span class="home__subtitle">New Frame Designs</span>
+          <h1 class="home__title">
+            Get Your Customised <span>Photo Frames</span>
+          </h1>
+          <p class="home__description">
+          </p>
+          <a href="shop.html" class="btns">Shop Now</a>
+        </div>
+        <img src="assets/img/banner.jpg" class="home__img" alt="hats" data-aos="fade-right" />
+      </div>
+    </section>
+
+
+
+    <!--=============== CATEGORIES ===============-->
+    <section class="categories container section">
+      <h3 class="section__title" data-aos="fade-right"><span>Popular</span> Categories</h3>
+      <div class="categories__container swiper">
+        <div class="swiper-wrapper">
+          <a href="shop.html" class="category__item swiper-slide" data-aos="flip-left">
+            <img src="assets/img/product-1.jpg" alt="" class="category__img" />
+            <h3 class="category__title">Photo Paper Media</h3>
+          </a>
+          <a href="shop.html" class="category__item swiper-slide" data-aos="flip-left">
+            <img src="assets/img/product2.jpg" alt="" class="category__img" />
+            <h3 class="category__title">Canvas Media</h3>
+          </a>
+          <a href="shop.html" class="category__item swiper-slide" data-aos="flip-left">
+            <img src="assets/img/Acrylic.jpg" alt="" class="category__img" />
+            <h3 class="category__title">Acrylic Media</h3>
+          </a>
+          <a href="shop.html" class="category__item swiper-slide" data-aos="flip-left">
+            <img src="assets/img/product4.jpg" alt="" class="category__img" />
+            <h3 class="category__title">Rare God Photos</h3>
+          </a>
+          <a href="shop.html" class="category__item swiper-slide" data-aos="flip-left">
+            <img src="assets/img/product5.jpg" alt="" class="category__img" />
+            <h3 class="category__title">Scenary Photos</h3>
+          </a>
+          <a href="shop.html" class="category__item swiper-slide" data-aos="flip-left">
+            <img src="assets/img/product6.jpg" alt="" class="category__img" />
+            <h3 class="category__title">Custom Made Photos</h3>
+          </a>
+          <a href="shop.html" class="category__item swiper-slide" data-aos="flip-left">
+            <img src="assets/img/product7.jpg" alt="" class="category__img" />
+            <h3 class="category__title">Any shape Print and Cut stickers</h3>
+          </a>
+          <a href="shop.html" class="category__item swiper-slide" data-aos="flip-left">
+            <img src="assets/img/product7.jpg" alt="" class="category__img" />
+            <h3 class="category__title">Name Badges</h3>
+          </a>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="fi fi-rs-angle-left"></i>
+        </div>
+        <div class="swiper-button-next">
+          <i class="fi fi-rs-angle-right"></i>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- <section class="categories container section">
+      <h3 class="section__title"><span>Popular</span> Categories</h3>
+      <div class="categories__container swiper" id="categoryContainer">
+       
+      </div>
+    </section> -->
+
+
+
+    <!--=============== NEW ARRIVALS ===============-->
+
+    <section class="new__arrivals container section">
+      <h3 class="section__title" data-aos="fade-right"><span>New</span> Arrivals</h3>
+      <div class="new__container swiper">
+        <div class="swiper-wrapper">
+          <div class="product__item swiper-slide" data-aos="flip-right" data-aos="flip-right">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product-1-1.jpg" alt="" class="product__img default" />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+              </div>
+              <div class="product__badge light-pink">New</div>
+            </div>
+            <div class="product__content">
+              <span class="product__category">Frames</span>
+              <a href="details.html">
+                <h3 class="product__title">Wall Pattern Frames</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$238.85</span>
+                <span class="old__price">$245.8</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+          <div class="product__item swiper-slide" data-aos="flip-right" data-aos="flip-right">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product-2-1.jpg" alt="" class="product__img default" />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+              </div>
+              <div class="product__badge light-green">New</div>
+            </div>
+            <div class="product__content">
+              <span class="product__category">Frames</span>
+              <a href="details.html">
+                <h3 class="product__title">Table Pattern Frames</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$238.85</span>
+                <span class="old__price">$245.8</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+          <div class="product__item swiper-slide" data-aos="flip-right" data-aos="flip-right">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product-3-1.jpg" alt="" class="product__img default" />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+              </div>
+              <div class="product__badge light-orange">New</div>
+            </div>
+            <div class="product__content">
+              <span class="product__category">Frames</span>
+              <a href="details.html">
+                <h3 class="product__title">Door Pattern Frames</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$238.85</span>
+                <span class="old__price">$245.8</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+          <div class="product__item swiper-slide" data-aos="flip-right" data-aos="flip-right">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product4.jpg" alt="" class="product__img default" />
+
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+              </div>
+              <div class="product__badge light-blue">New</div>
+            </div>
+            <div class="product__content">
+              <span class="product__category">Frames</span>
+              <a href="details.html">
+                <h3 class="product__title">God Pattern Frames</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$238.85</span>
+                <span class="old__price">$245.8</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="swiper-button-prev">
+          <i class="fi fi-rs-angle-left"></i>
+        </div>
+        <div class="swiper-button-next">
+          <i class="fi fi-rs-angle-right"></i>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="new__arrivals container section">
+      <h3 class="section__title" data-aos="fade-right"><span>Trending</span> Now</h3>
+      <div class="new__container swiper">
+        <div class="swiper-wrapper">
+          <div class="product__item swiper-slide" data-aos="flip-right">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product-1-2.jpg" alt="" class="product__img default" />
+                <img src="assets/img/product-1-2.jpg" alt="" class="product__img hover" />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+              </div>
+
+            </div>
+            <div class="product__content">
+              <span class="product__category">Frames</span>
+              <a href="details.html">
+                <h3 class="product__title">Photo Frames</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$238.85</span>
+                <span class="old__price">$245.8</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+          <div class="product__item swiper-slide" data-aos="flip-right">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product-2-2.jpg" alt="" class="product__img default" />
+                <img src="assets/img/product-2-2.jpg" alt="" class="product__img hover" />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+              </div>
+
+            </div>
+            <div class="product__content">
+              <span class="product__category">Frames</span>
+              <a href="details.html">
+                <h3 class="product__title">Hall Frames</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$238.85</span>
+                <span class="old__price">$245.8</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+          <div class="product__item swiper-slide" data-aos="flip-right">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product-3-2.jpg" alt="" class="product__img default" />
+                <img src="assets/img/product-3-2.jpg" alt="" class="product__img hover" />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+              </div>
+
+            </div>
+            <div class="product__content">
+              <span class="product__category">Frames</span>
+              <a href="details.html">
+                <h3 class="product__title">wedding Frames</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$238.85</span>
+                <span class="old__price">$245.8</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+          <div class="product__item swiper-slide" data-aos="flip-right">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product-3-4.jpg" alt="" class="product__img default" />
+                <img src="assets/img/product-3-4.jpg" alt="" class="product__img hover" />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+              </div>
+
+            </div>
+            <div class="product__content">
+              <span class="product__category">Frames</span>
+              <a href="details.html">
+                <h3 class="product__title">painting Frames</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$238.85</span>
+                <span class="old__price">$245.8</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="swiper-button-prev">
+          <i class="fi fi-rs-angle-left"></i>
+        </div>
+        <div class="swiper-button-next">
+          <i class="fi fi-rs-angle-right"></i>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="new__arrivals container section">
+      <h3 class="section__title" data-aos="fade-right"><span>Best</span> Seller</h3>
+      <div class="new__container swiper">
+        <div class="swiper-wrapper">
+          <div class="product__item swiper-slide" data-aos="flip-right">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product2.jpg" alt="" class="product__img default" />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+              </div>
+
+            </div>
+            <div class="product__content">
+              <span class="product__category">Frames</span>
+              <a href="details.html">
+                <h3 class="product__title">Family Frame</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$238.85</span>
+                <span class="old__price">$245.8</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+          <div class="product__item swiper-slide" data-aos="flip-right">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product3.jpg" alt="" class="product__img default" />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+              </div>
+
+            </div>
+            <div class="product__content">
+              <span class="product__category">Frames</span>
+              <a href="details.html">
+                <h3 class="product__title">Couples Frame</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$238.85</span>
+                <span class="old__price">$245.8</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+          <div class="product__item swiper-slide" data-aos="flip-right">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product6.jpg" alt="" class="product__img default" />
+
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+              </div>
+
+            </div>
+            <div class="product__content">
+              <span class="product__category">Frames</span>
+              <a href="details.html">
+                <h3 class="product__title">Birthday Frame</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$238.85</span>
+                <span class="old__price">$245.8</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+          <div class="product__item swiper-slide" data-aos="flip-right">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product-1-4.jpg" alt="" class="product__img default" />
+
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+              </div>
+
+            </div>
+            <div class="product__content">
+              <span class="product__category">Frames</span>
+              <a href="details.html">
+                <h3 class="product__title">collegous Frame</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$238.85</span>
+                <span class="old__price">$245.8</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="swiper-button-prev">
+          <i class="fi fi-rs-angle-left"></i>
+        </div>
+        <div class="swiper-button-next">
+          <i class="fi fi-rs-angle-right"></i>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- <section class="categories container section">
+      <h3 class="section__title1"><span>WHY</span>REPLICAGIFTS</h3>
+      <div class="categories__container swiper">
+        <div class="swiper-wrapper">
+          <a href="shop.html" class="category__item1 swiper-slide">
+            <img src="assets/img/7182239_3582344.svg" alt="" class="category__img" />
+            <h3 class="category__title">Easy Order</h3>
+          </a>
+          <a href="shop.html" class="category__item1 swiper-slide">
+            <img src="assets/img/1488159_7448.svg" alt="" class="category__img" />
+            <h3 class="category__title">Best Price</h3>
+          </a>
+          <a href="shop.html" class="category__item1 swiper-slide">
+            <img src="assets/img/798571_file.svg" alt="" class="category__img" />
+            <h3 class="category__title">Best Quality</h3>
+          </a>
+          <a href="shop.html" class="category__item1 swiper-slide">
+            <img src="assets/img/12982434_5101594.svg" alt="" class="category__img" />
+            <h3 class="category__title">Customer Support</h3>
+          </a>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="fi fi-rs-angle-left"></i>
+        </div>
+        <div class="swiper-button-next">
+          <i class="fi fi-rs-angle-right"></i>
+        </div>
+      </div>
+    </section> -->
+
+
+
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container">
+
+        <div class="text-center">
+          <h3 class="section__title1" data-aos="fade-right"><span>PERSONALIZE</span> YOUR SPACE</h3>
+          <p data-aos="fade-right"> Whether it’s photo paper, photo frames, matting-free picture frames, or photo
+            canvas, OMGs the premier
+            photo printing service, only uses materials from carefully selected partners to ensure the greatest quality.
+            Our staff in our online photo lab handles each step, from order to production, with the highest care</p>
+          <section class="home" data-aos="fade-right">
+
+            <a href="shop.html" class="btns">Shop Now</a>
+
+
+          </section>
+
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+
+
+    <section class="new__arrivals container section1">
+      <h3 class="section__title1" data-aos="fade-right"><span>Why</span> Replicagifts?</h3>
+      <div class="new__container swiper">
+        <div class="swiper-wrapper">
+          <div class="product__item swiper-slide" data-aos="zoom-in">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/7182239_3582344.svg" alt="" class="product__img1 default" />
+              </a>
+              <!-- <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+              </div> -->
+              <!-- <div class="product__badge light-pink">New</div> -->
+            </div>
+            <div class="product__content">
+              <!-- <span class="product__category">Clothing</span> -->
+              <a href="details.html">
+                <h3 class="product__title1">Easy Order</h3>
+              </a>
+              <!-- <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div> -->
+              <!-- <div class="product__price flex">
+                <span class="new__price">$238.85</span>
+                <span class="old__price">$245.8</span>
+              </div> -->
+              <!-- <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a> -->
+            </div>
+          </div>
+          <div class="product__item swiper-slide" data-aos="zoom-in">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/1488159_7448.svg" alt="" class="product__img1 default" />
+                <!-- <img src="assets/img/product-2-2.jpg" alt="" class="product__img hover" /> -->
+              </a>
+              <!-- <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+              </div>
+              <div class="product__badge light-green">New</div> -->
+            </div>
+            <div class="product__content">
+              <!-- <span class="product__category">Clothing</span> -->
+              <a href="details.html">
+                <h3 class="product__title1">Best Price</h3>
+              </a>
+              <!-- <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$238.85</span>
+                <span class="old__price">$245.8</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a> -->
+            </div>
+          </div>
+          <div class="product__item swiper-slide" data-aos="zoom-in">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/798571_file.svg" alt="" class="product__img1 default" />
+              </a>
+              <!-- <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+              </div> -->
+              <!-- <div class="product__badge light-orange">New</div> -->
+            </div>
+            <div class="product__content">
+              <!-- <span class="product__category">Clothing</span> -->
+              <a href="details.html">
+                <h3 class="product__title1">Best Quality</h3>
+              </a>
+              <!-- <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$238.85</span>
+                <span class="old__price">$245.8</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a> -->
+            </div>
+          </div>
+          <div class="product__item swiper-slide" data-aos="zoom-in">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/12982434_5101594.svg" alt="" class="product__img1 default" />
+
+              </a>
+              <!-- <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+              </div>
+              <div class="product__badge light-blue">New</div> -->
+            </div>
+            <div class="product__content">
+              <!-- <span class="product__category">Clothing</span> -->
+              <a href="details.html">
+                <h3 class="product__title1">Customer Support</h3>
+              </a>
+              <!-- <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">$238.85</span>
+                <span class="old__price">$245.8</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div> -->
+            </div>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="fi fi-rs-angle-left"></i>
+          </div>
+          <div class="swiper-button-next">
+            <i class="fi fi-rs-angle-right"></i>
+          </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="faq" class="faq">
+      <div data-aos="fade-up">
+        <div class="section-header">
+          <h3 class="section__title1"><span>Frequently</span> Asked Questions</h3>
+
+        </div>
+
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-10">
+
+            <div class="accordion accordion-flush" id="faqlist">
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-content-1">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    What payment methods do you offer?
+                  </button>
+                </h3>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    We offer all modes of online payment such as credit card, debit card, net banking, phone pe, G pay,
+                    UPI, Paytm via Razorpay.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-content-2">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    Do I have gift wrap options?
+                  </button>
+                </h3>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Yes. you have the option to get your order gift wrapped if you are buying it for someone else. There
+                    is a 50 rupees extra charge for gift wrapping.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-content-3">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    What file formats can I upload?
+                  </button>
+                </h3>
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    You can upload your images in jpeg, jpg, or png formats. Make sure they are of high resolution as
+                    the prints might get blurred with low-quality pictures.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-content-4">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    How much does delivery cost?
+                  </button>
+                </h3>
+                <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    There is no minimum amount required to avail of free shipping on your order. We offer free shipping
+                    on all orders made through our website.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+
+
+
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h3 class="section__title1"><span>Contact</span> Us</h3>
+
+        </div>
+
+        <div class="row mt-4 p-3">
+
+          <div class="col-lg-4" data-aos="fade-right">
+
+            <div class="info-item d-flex">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h4>Location:</h4>
+                <p>115, Big street, Pattukottai, Thanjavur, TamilNadu, 614601</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h4>Email:</h4>
+                <p>Replicagifts567@gmail.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex">
+              <i class="bi bi-phone flex-shrink-0"></i>
+              <div>
+                <h4>Call:</h4>
+                <p>+91 9144493444</p>
+              </div>
+            </div><!-- End Info Item -->
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-left">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div><!-- End Contact Form -->
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+
+
+    <section class="newsletter section2">
+      <div class="newsletter__container container grid">
+        <h3 class="newsletter__title flex">
+          <img src="./assets/img/icon-email.svg" alt="" class="newsletter__icon" />
+          Sign in to Newsletter
+        </h3>
+        <p class="newsletter__description">
+        </p>
+        <form action="" class="newsletter__form">
+          <input type="text" placeholder="Enter Your Email" class="newsletter__input" />
+          <button type="submit" class="newsletter__btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer container">
+    <div class="footer__container grid">
+      <div class="footer__content">
+        <a href="index.html" class="footer__logo">
+          <p class="onetext">REPLICA</p>
+          <p class="twotext">GIFTS</p>
+        </a>
+        <h4 class="footer__subtitle">Contact</h4>
+        <p class="footer__description">
+          <span>Address:</span> 115, Big street, Pattukottai, Thanjavur, TamilNadu, 614601
+        </p>
+        <p class="footer__description">
+          <span>Phone:</span> (+91) 91 444 93444
+        </p>
+        <p class="footer__description">
+          <span>Hours:</span> 10:00 - 18:00, Mon - Sat
+        </p>
+        <div class="footer__social">
+          <h4 class="footer__subtitle">Follow Me</h4>
+          <div class="footer__links flex">
+            <a href="#">
+              <img src="./assets/img/icon-facebook.svg" alt="" class="footer__social-icon" />
+            </a>
+            <a href="#">
+              <img src="./assets/img/icon-twitter.svg" alt="" class="footer__social-icon" />
+            </a>
+            <a href="#">
+              <img src="./assets/img/icon-instagram.svg" alt="" class="footer__social-icon" />
+            </a>
+            <a href="#">
+              <img src="./assets/img/icon-pinterest.svg" alt="" class="footer__social-icon" />
+            </a>
+            <a href="#">
+              <img src="./assets/img/icon-youtube.svg" alt="" class="footer__social-icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__content">
+        <h3 class="footer__title">Address</h3>
+        <ul class="footer__links">
+          <li><a href="#" class="footer__link">About Us</a></li>
+          <li><a href="#" class="footer__link">Delivery Information</a></li>
+          <li><a href="#" class="footer__link">Privacy Policy</a></li>
+          <li><a href="#" class="footer__link">Terms & Conditions</a></li>
+          <li><a href="#" class="footer__link">Contact Us</a></li>
+          <li><a href="#" class="footer__link">Support Center</a></li>
+        </ul>
+      </div>
+      <div class="footer__content">
+        <h3 class="footer__title">My Account</h3>
+        <ul class="footer__links">
+          <li><a href="#" class="footer__link">Sign In</a></li>
+          <li><a href="#" class="footer__link">View Cart</a></li>
+          <li><a href="#" class="footer__link">My Wishlist</a></li>
+          <li><a href="#" class="footer__link">Track My Order</a></li>
+          <li><a href="#" class="footer__link">Help</a></li>
+          <li><a href="#" class="footer__link">Order</a></li>
+        </ul>
+      </div>
+      <div class="footer__content">
+        <h3 class="footer__title">Secured Payed Gateways</h3>
+        <img src="./assets/img/payment-method.png" alt="" class="payment__img" />
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="copyright">&copy; 2024 Replicagifts. All right reserved</p>
+      <!-- <span class="designer">Designer by Crypticalcoder</span> -->
+    </div>
+  </footer>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <!-- <script src="assets/js/main.js"></script> -->
+
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var dropdown = document.getElementById("dropdown");
+      var categoriesLink = document.querySelector(".nav__item");
+
+      categoriesLink.addEventListener("click", function (e) {
+        e.preventDefault();
+        dropdown.style.display = dropdown.style.display === "none" ? "block" : "none";
+      });
+
+      dropdown.addEventListener("click", function (e) {
+        e.stopPropagation();
+      });
+
+      document.addEventListener("click", function () {
+        dropdown.style.display = "none";
+      });
+    });
+
+  </script>
+
+
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Fetch category data from the backend
+      fetch('/api/categories') // Replace with your actual backend endpoint
+        .then(response => response.json())
+        .then(categories => {
+          const categoryContainer = document.getElementById('categoryContainer');
+
+          // Populate HTML dynamically based on the received data
+          categories.forEach(category => {
+            const categoryItem = document.createElement('a');
+            categoryItem.href = 'shop.html'; // Replace with your actual link
+            categoryItem.classList.add('category__item', 'swiper-slide');
+
+            const categoryImg = document.createElement('img');
+            categoryImg.src = category.image; // Assuming your category object has an 'image' property
+            categoryImg.alt = '';
+            categoryImg.classList.add('category__img');
+
+            const categoryTitle = document.createElement('h3');
+            categoryTitle.classList.add('category__title');
+            categoryTitle.textContent = category.title; // Assuming your category object has a 'title' property
+
+            categoryItem.appendChild(categoryImg);
+            categoryItem.appendChild(categoryTitle);
+            categoryContainer.appendChild(categoryItem);
+          });
+
+          // Initialize your swiper here or wherever you have the swiper initialization code
+        })
+        .catch(error => {
+          console.error('Error fetching categories:', error);
+        });
+    });
+  </script>
+
+
+
+
+
+</body>
+
+</html>
