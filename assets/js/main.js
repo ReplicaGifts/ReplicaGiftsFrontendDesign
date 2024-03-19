@@ -41,6 +41,11 @@ let swiperCategories = new Swiper(".categories__container", {
     prevEl: ".swiper-button-prev",
   },
 
+  autoplay: {
+    delay: 3000, // Delay in milliseconds between slides
+    disableOnInteraction: false, // Prevent autoplay interruption on interaction
+  },
+
   breakpoints: {
     350: {
       slidesPerView: 2,
@@ -72,6 +77,11 @@ let swiperProducts = new Swiper(".new__container", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+  },
+
+  autoplay: {
+    delay: 3000, // Delay in milliseconds between slides
+    disableOnInteraction: false, // Prevent autoplay interruption on interaction
   },
 
   breakpoints: {
@@ -240,8 +250,15 @@ document.addEventListener('DOMContentLoaded', () => {
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
-    }
+    },
+
+  
   });
+
+
+
+
+  
 
   /**
    * Animation on scroll function and init
