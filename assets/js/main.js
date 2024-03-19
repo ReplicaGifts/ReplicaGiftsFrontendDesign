@@ -42,7 +42,7 @@ let swiperCategories = new Swiper(".categories__container", {
   },
 
   autoplay: {
-    delay: 3000, // Delay in milliseconds between slides
+    delay: 5000, // Delay in milliseconds between slides
     disableOnInteraction: false, // Prevent autoplay interruption on interaction
   },
 
@@ -80,7 +80,7 @@ let swiperProducts = new Swiper(".new__container", {
   },
 
   autoplay: {
-    delay: 3000, // Delay in milliseconds between slides
+    delay: 5000, // Delay in milliseconds between slides
     disableOnInteraction: false, // Prevent autoplay interruption on interaction
   },
 

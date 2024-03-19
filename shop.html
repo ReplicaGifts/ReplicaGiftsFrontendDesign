@@ -13,10 +13,11 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!--=============== SWIPER CSS ===============-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <!--=============== CSS ===============-->
   <link rel="stylesheet" href="assets/css/styles.css" />
-
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <title>Customised photo frame Website</title>
 </head>
 
@@ -75,7 +76,7 @@
             <a href="accounts.html" class="nav__link">My Account</a>
           </li>
 
-        
+
           <li class="nav__item">
             <a href="#contact" class="nav__link">Contact</a>
           </li>
@@ -133,25 +134,61 @@
     </section> -->
 
 
-    <section class="products container section--lg">
-      <p class="total__products">We have found <span></span> items for you!</p>
-      <div class="products__container grid">
+    <section class="products container row col-lg-12">
+      <!-- <p class="total__products">SELECT YOUR PHOTOS! <span></span></p> -->
+
+
+
+      <div class="sidebar col-lg-3">
+        <h3>Product Search</h3>
+        <input type="text" placeholder="Product Search..." class="form__input" />
+
+        <h3>Category</h3>
+        <ul class="category-list">
+          <li><input type="checkbox" class="checkboxsyle">Photo Paper Media</li>
+          <li><input type="checkbox" class="checkboxsyle">Canvas Media</li>
+          <li><input type="checkbox" class="checkboxsyle">Acrylic Media</li>
+          <li><input type="checkbox" class="checkboxsyle">Rare God Photo</li>
+          <li><input type="checkbox" class="checkboxsyle">Scenary Photo</li>
+          <li><input type="checkbox" class="checkboxsyle">Acrylic Magnet Photo</li>
+        </ul>
+        <h3>Price Range</h3>
+
+        <ul class="category-list">
+          <li><input type="checkbox" class="checkboxsyle">Under <i class="bi bi-currency-rupee"></i>300</li>
+          <li><input type="checkbox" class="checkboxsyle"><i class="bi bi-currency-rupee"></i>300 - <i
+              class="bi bi-currency-rupee"></i>500</li>
+          <li><input type="checkbox" class="checkboxsyle"><i class="bi bi-currency-rupee"></i>500 - <i
+              class="bi bi-currency-rupee"></i>1000</li>
+          <li><input type="checkbox" class="checkboxsyle"><i class="bi bi-currency-rupee"></i>1000 - <i
+              class="bi bi-currency-rupee"></i>2000</li>
+          <li><input type="checkbox" class="checkboxsyle"><i class="bi bi-currency-rupee"></i>2000 - <i
+              class="bi bi-currency-rupee"></i>3000</li>
+
+        </ul>
+
+        <h3>Discount Range</h3>
+
+        <ul class="category-list">
+          <li><input type="checkbox" class="checkboxsyle">10% Off or More</li>
+          <li><input type="checkbox" class="checkboxsyle">20% Off or More</li>
+          <li><input type="checkbox" class="checkboxsyle">30% Off or More</li>
+          <li><input type="checkbox" class="checkboxsyle">40% Off or More</li>
+          <li><input type="checkbox" class="checkboxsyle">50% Off or More</li>
+        </ul>
+      </div>
+      <div class="products__container grid col-lg-9">
         <div class="product__item">
           <div class="product__banner">
-
             <a href="details.html" class="product__images">
               <img id="productImage" src="assets/img/Annapoorani-Golden Statue.jpg" alt=""
                 class="product__img default" />
-
             </a>
             <div class="product__actions">
-         
               <a href="#" class="action__btn" aria-label="Add to Wishlist">
                 <i class="fi fi-rs-heart"></i>
               </a>
-             
             </div>
-
           </div>
           <div class="product__content">
             <span class="product__category">God Photo Frames</span>
@@ -181,13 +218,11 @@
 
             </a>
             <div class="product__actions">
-         
+
               <a href="#" class="action__btn" aria-label="Add to Wishlist">
                 <i class="fi fi-rs-heart"></i>
               </a>
-             
             </div>
-
           </div>
           <div class="product__content">
             <span class="product__category">God Photo Frames</span>
@@ -214,16 +249,12 @@
           <div class="product__banner">
             <a href="details.html" class="product__images">
               <img src="assets/img/ardhanareeshwara 02.jpg" alt="" class="product__img default" />
-
             </a>
             <div class="product__actions">
-         
               <a href="#" class="action__btn" aria-label="Add to Wishlist">
                 <i class="fi fi-rs-heart"></i>
               </a>
-             
             </div>
-
           </div>
           <div class="product__content">
             <span class="product__category">God Photo Frames</span>
@@ -253,11 +284,11 @@
 
             </a>
             <div class="product__actions">
-         
+
               <a href="#" class="action__btn" aria-label="Add to Wishlist">
                 <i class="fi fi-rs-heart"></i>
               </a>
-             
+
             </div>
 
           </div>
@@ -286,16 +317,12 @@
           <div class="product__banner">
             <a href="details.html" class="product__images">
               <img src="assets/img/bikshadhana moorthy.jpg" alt="" class="product__img default" />
-
             </a>
             <div class="product__actions">
-         
               <a href="#" class="action__btn" aria-label="Add to Wishlist">
                 <i class="fi fi-rs-heart"></i>
               </a>
-             
             </div>
-
           </div>
           <div class="product__content">
             <span class="product__category">God Photo Frames </span>
@@ -325,11 +352,11 @@
 
             </a>
             <div class="product__actions">
-         
+
               <a href="#" class="action__btn" aria-label="Add to Wishlist">
                 <i class="fi fi-rs-heart"></i>
               </a>
-             
+
             </div>
 
           </div>
@@ -361,11 +388,11 @@
 
             </a>
             <div class="product__actions">
-         
+
               <a href="#" class="action__btn" aria-label="Add to Wishlist">
                 <i class="fi fi-rs-heart"></i>
               </a>
-             
+
             </div>
 
           </div>
@@ -394,14 +421,12 @@
           <div class="product__banner">
             <a href="details.html" class="product__images">
               <img src="assets/img/gaja lakshmi.jpg" alt="" class="product__img default" />
-
             </a>
             <div class="product__actions">
-         
+
               <a href="#" class="action__btn" aria-label="Add to Wishlist">
                 <i class="fi fi-rs-heart"></i>
               </a>
-             
             </div>
           </div>
           <div class="product__content">
@@ -429,16 +454,12 @@
           <div class="product__banner">
             <a href="details.html" class="product__images">
               <img src="assets/img/gayathri.jpg" alt="" class="product__img default" />
-
             </a>
             <div class="product__actions">
-         
               <a href="#" class="action__btn" aria-label="Add to Wishlist">
                 <i class="fi fi-rs-heart"></i>
               </a>
-             
             </div>
-
           </div>
           <div class="product__content">
             <span class="product__category">God Photo Frames</span>
@@ -467,11 +488,11 @@
               <img src="assets/img/god 2.jpg" alt="" class="product__img default" />
             </a>
             <div class="product__actions">
-         
+
               <a href="#" class="action__btn" aria-label="Add to Wishlist">
                 <i class="fi fi-rs-heart"></i>
               </a>
-             
+
             </div>
 
           </div>
@@ -503,11 +524,11 @@
 
             </a>
             <div class="product__actions">
-         
+
               <a href="#" class="action__btn" aria-label="Add to Wishlist">
                 <i class="fi fi-rs-heart"></i>
               </a>
-             
+
             </div>
 
           </div>
@@ -539,11 +560,11 @@
 
             </a>
             <div class="product__actions">
-         
+
               <a href="#" class="action__btn" aria-label="Add to Wishlist">
                 <i class="fi fi-rs-heart"></i>
               </a>
-             
+
             </div>
           </div>
           <div class="product__content">

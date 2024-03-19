@@ -314,6 +314,7 @@ table {
 .services .icon-box-blue .icon i {
   color: #2282ff;
 }
+
 /*=============== HEADER & NAV ===============*/
 .header__top {
   background-color: var(--first-color-alt);
@@ -738,7 +739,8 @@ table {
 
 .category__item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* Add shadow on hover */
 }
 
 
@@ -868,7 +870,9 @@ table {
 }
 
 .products__container {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  height: 850px;
+  overflow-y: scroll;
 }
 
 .product__item {
@@ -962,6 +966,30 @@ table {
   -moz-transition: all 0.2s var(--transition);
   -ms-transition: all 0.2s var(--transition);
   -o-transition: all 0.2s var(--transition);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  /* Adjust the width as needed */
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Change the background color of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  /* Change the color of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  /* Change the color of the scrollbar handle on hover */
 }
 
 .action__btn {
@@ -1103,9 +1131,9 @@ table {
   opacity: 0;
 }
 
-.product__item:hover {
+/* .product__item:hover {
   box-shadow: 0 0 10px hsl(0, 0%, 0%, 0.1);
-}
+} */
 
 .product__item:hover .product__img.hover,
 .product__item:hover .product__actions,
@@ -2006,38 +2034,47 @@ table {
 /*=============== WISHLIST ===============*/
 
 /*=============== CHECKOUT ===============*/
+
+
 .checkout__container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px; /* Adjust the gap between columns */
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  /* Adjust the gap between columns */
 }
 
 .checkout__group {
   padding: 20px;
   border-radius: 8px;
-  background-color: #f8f9fa; /* Adjust background color */
+  background-color: #ffffff;
 }
 
 .checkout__group .section__title {
-  font-size: 1.5rem; /* Adjust title font size */
-  margin-bottom: 20px; /* Adjust margin between title and form */
+  font-size: 1.5rem;
+  /* Adjust title font size */
+  margin-bottom: 20px;
 }
 
 .form-label {
-  font-weight: bold; /* Make labels bold */
+  font-weight: bold;
+  /* Make labels bold */
 }
 
 .form-control {
   width: 100%;
   padding: 10px;
-  margin-bottom: 15px; /* Adjust margin between inputs */
-  border: 1px solid #ced4da; /* Adjust border color */
-  border-radius: 4px; /* Adjust border radius */
+  margin-bottom: 15px;
+  /* Adjust margin between inputs */
+  border: 1px solid #ced4da;
+  /* Adjust border color */
+  border-radius: 4px;
+  /* Adjust border radius */
 }
 
 .form-control:focus {
-  border-color: #4d90fe; /* Adjust focus border color */
-  outline: 0; /* Remove outline */
+  border-color: #4d90fe;
+  /* Adjust focus */
+  outline: 0;
 }
 
 .order__table thead tr th,
@@ -2086,6 +2123,58 @@ table {
 .payment__label {
   font-size: var(--small-font-size);
   user-select: none;
+}
+
+
+
+.sidebar {
+  flex: 1;
+  background-color: #e9e9e9;
+  padding: 35px !important;
+  border-radius: 4px;
+
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #e74c3c;
+  margin-bottom: 10px;
+}
+
+.sidebar input[type="text"] {
+  padding: 5px 8px;
+  text-align: center;
+  /* outline: none; */
+  width: 100%;
+  margin-bottom: 15px;
+  border: 2px solid rgb(128, 128, 128);
+  border-radius: 12px;
+}
+
+.sidebar h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin: 5px 0;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.sidebar ul li:hover {
+  background-color: #dcdde1;
+  border-radius: 50px;
+}
+
+.checkboxsyle {
+  margin-right: 5px !important;
 }
 
 /*=============== COMPARE ===============*/
