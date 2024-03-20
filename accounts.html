@@ -30,34 +30,36 @@
         <div class="header__container container">
           <div class="header__contact">
             <span><i class="fa-brands fa-whatsapp"></i></span>
-            <span><i class="fa-brands fa-facebook-f"></i>(+91 9876477876)</span>
+            <span><i class="fa-brands fa-facebook-f"></i>(+91 9144493444)</span>
           </div>
           <!-- <p class="header__alert-news">
-           
           </p> -->
           <div>
-          <a href="login-register.html" class="header__top-action">
-            Log In / Sign Up
-          </a>
+            <a href="login-register.html" class="header__top-action"><i class="bi bi-person"></i>
+              Log In / Sign Up
+            </a>
           </div>
         </div>
       </div>
   
       <nav class="nav container">
-        <a href="index.html" class="nav__logo">
-          <!-- <img class="nav__logo-img" src="assets/img/logo.png" alt="website logo" /> -->
-          <p class="onetext">REPLICA</p><p class="twotext">GIFTS</p>
+        <a href="index.html" class="nav__logo" data-aos="fade-right">
+          <!-- <img class="nav__logo-img" src="assets/img/Untitled_logo_2_free-file.jpg" alt="website logo" /> -->
+          <p class="onetext">REPLICA</p>
+          <p class="twotext">GIFTS</p>
         </a>
         <div class="nav__menu" id="nav-menu">
           <div class="nav__menu-top">
             <a href="index.html" class="nav__menu-logo">
-              <img src="./assets/img/logo.svg" alt="">
+              <!-- <img src="./assets/img/logo.svg" alt=""> -->
+              <p class="onetext">REPLICA</p>
+              <p class="twotext">GIFTS</p>
             </a>
             <div class="nav__close" id="nav-close">
               <i class="fi fi-rs-cross-small"></i>
             </div>
           </div>
-          <ul class="nav__list">
+          <ul class="nav__list" data-aos="fade-left">
             <li class="nav__item">
               <a href="index.html" class="nav__link active-link">Home</a>
             </li>
@@ -65,34 +67,37 @@
               <a href="shop.html" class="nav__link">Shop</a>
             </li>
             <li class="nav__item">
-              <a href="accounts.html" class="nav__link">My Account</a>
-            </li>
-            <li class="nav__item">
               <a href="#" class="nav__link">Categories</a>
               <div id="dropdown">
-                <a href="">Photo Prints</a>
-                <a href="">Canvas Photo Prints</a>
-                <a href="">Acrylic Photo</a>
+                <a href="">Photo Paper Media</a>
+                <a href="">Canvas Media</a>
+                <a href="">Acrylic Media</a>
                 <a href="">Rare God Photos</a>
                 <a href="">Scenery Photos</a>
                 <a href="">Acrylic Photo Magnet</a>
                 <a href="">Name Badges</a>
               </div>
             </li>
+         
+            <li class="nav__item">
+              <a href="accounts.html" class="nav__link">My Account</a>
+            </li>
   
-  
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
             <!-- <li class="nav__item">
               <a href="login-register.html" class="nav__link">Login</a>
             </li> -->
           </ul>
-          <div class="header__search">
+          <div class="header__search" data-aos="fade-left">
             <input type="text" placeholder="Search For Items..." class="form__input" />
-            <button class="search__btn">
-              <img src="assets/img/search.png" alt="search icon" />
+            <button class="search__btns">
+              <img src="assets/img/search-icon.svg" alt="search icon" />
             </button>
           </div>
         </div>
-        <div class="header__user-actions">
+        <div class="header__user-actions" data-aos="fade-left">
           <a href="wishlist.html" class="header__action-btn" title="Wishlist">
             <img src="assets/img/icon-heart.svg" alt="" />
             <span class="count">3</span>
@@ -107,6 +112,7 @@
         </div>
       </nav>
     </header>
+  
   
 
     <!--=============== MAIN ===============-->
@@ -188,7 +194,60 @@
                 </table>
               </div>
             </div>
-            <div class="tab__content" content id="update-profile">
+
+
+            <div class="tab__content" content id="address">
+              <h3 class="tab__header">Shipping Address</h3>
+              <div class="tab__body">
+                <table class="placed__order-table">
+                  <thead>
+                    <tr>
+                      <th>Inputs</th>
+                      <th>Details</th>
+                 
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Full name</td>
+                      <td>Replica</td>
+                     
+                    </tr>
+                    <tr>
+                      <td>Email</td>
+                      <td>Replicagifts567@gmail.com</td>
+                     
+                    </tr>
+                    <tr>
+                      <td>Address</td>
+                      <td>3/103, church street, megnanapuram</td>
+                      
+                    </tr>
+                    <tr>
+                      <td>State</td>
+                      <td>Tamilnadu</td>
+                      
+                    </tr>
+                    <tr>
+                      <td>Country</td>
+                      <td>India</td>
+                      
+                    </tr>
+                    <tr>
+                      <td>Pincode</td>
+                      <td>628210</td>
+                      
+                    </tr>
+                    <tr>
+                      <td>Phone</td>
+                      <td>6382306217</td>
+                      
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!-- <div class="tab__content" content id="update-profile">
               <h3 class="tab__header">Update Profile</h3>
               <div class="tab__body">
                 <form class="form grid">
@@ -202,23 +261,24 @@
                   </div>
                 </form>
               </div>
-            </div>
-            <div class="tab__content" content id="address">
+            </div> -->
+            <!-- <div class="tab__content" content id="address">
               <h3 class="tab__header">Shipping Address</h3>
               <div class="tab__body">
                 <address class="address">
-                  <p class="city">Jabez</p>
-                  <p class="city">6382306217</p>
-                  <p class="city">jabez@gmail.com</p>
+                  <a class="city">Full name:</a><a class="city"> Jabez</a>
+                  <br>
+                  <a class="city">6382306217</a>
+                  <a class="city">jabez@gmail.com</a>
                   3522 Interstate <br />
-                  75 Business Spur, <br />
+                  75 Business Saur, <br />
                   Sault Ste. <br />
                   Marie, Mi 49783
                 </address>
-                <p class="city">New York</p>
+                <a class="city">New York</a>
                 <a href="#" class="edit">Edit</a>
               </div>
-            </div>
+            </div> -->
             <div class="tab__content" content id="change-password">
               <h3 class="tab__header">Change Password</h3>
               <div class="tab__body">

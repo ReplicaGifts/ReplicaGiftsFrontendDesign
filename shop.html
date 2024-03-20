@@ -23,18 +23,17 @@
 
 <body>
   <!--=============== HEADER ===============-->
-  <header class="header">
+   <header class="header">
     <div class="header__top">
       <div class="header__container container">
         <div class="header__contact">
           <span><i class="fa-brands fa-whatsapp"></i></span>
-          <span><i class="fa-brands fa-facebook-f"></i>(+91 9876477876)</span>
+          <span><i class="fa-brands fa-facebook-f"></i>(+91 9144493444)</span>
         </div>
         <!-- <p class="header__alert-news">
-           
-          </p> -->
+        </p> -->
         <div>
-          <a href="login-register.html" class="header__top-action">
+          <a href="login-register.html" class="header__top-action"><i class="bi bi-person"></i>
             Log In / Sign Up
           </a>
         </div>
@@ -42,23 +41,28 @@
     </div>
 
     <nav class="nav container">
-      <a href="index.html" class="nav__logo">
-        <!-- <img class="nav__logo-img" src="assets/img/logo.png" alt="website logo" /> -->
+      <a href="index.html" class="nav__logo" data-aos="fade-right">
+        <!-- <img class="nav__logo-img" src="assets/img/Untitled_logo_2_free-file.jpg" alt="website logo" /> -->
         <p class="onetext">REPLICA</p>
         <p class="twotext">GIFTS</p>
       </a>
       <div class="nav__menu" id="nav-menu">
         <div class="nav__menu-top">
           <a href="index.html" class="nav__menu-logo">
-            <img src="./assets/img/logo.svg" alt="">
+            <!-- <img src="./assets/img/logo.svg" alt=""> -->
+            <p class="onetext">REPLICA</p>
+            <p class="twotext">GIFTS</p>
           </a>
           <div class="nav__close" id="nav-close">
             <i class="fi fi-rs-cross-small"></i>
           </div>
         </div>
-        <ul class="nav__list">
+        <ul class="nav__list" data-aos="fade-left">
           <li class="nav__item">
             <a href="index.html" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="shop.html" class="nav__link">Shop</a>
           </li>
           <li class="nav__item">
             <a href="#" class="nav__link">Categories</a>
@@ -72,28 +76,26 @@
               <a href="">Name Badges</a>
             </div>
           </li>
+       
           <li class="nav__item">
             <a href="accounts.html" class="nav__link">My Account</a>
           </li>
 
-
           <li class="nav__item">
             <a href="#contact" class="nav__link">Contact</a>
           </li>
-
-
           <!-- <li class="nav__item">
-              <a href="login-register.html" class="nav__link">Login</a>
-            </li> -->
+            <a href="login-register.html" class="nav__link">Login</a>
+          </li> -->
         </ul>
-        <div class="header__search">
+        <div class="header__search" data-aos="fade-left">
           <input type="text" placeholder="Search For Items..." class="form__input" />
-          <button class="search__btn">
-            <img src="assets/img/search.png" alt="search icon" />
+          <button class="search__btns">
+            <img src="assets/img/search-icon.svg" alt="search icon" />
           </button>
         </div>
       </div>
-      <div class="header__user-actions">
+      <div class="header__user-actions" data-aos="fade-left">
         <a href="wishlist.html" class="header__action-btn" title="Wishlist">
           <img src="assets/img/icon-heart.svg" alt="" />
           <span class="count">3</span>
@@ -108,16 +110,17 @@
       </div>
     </nav>
   </header>
+
   <!--=============== MAIN ===============-->
   <main class="main">
     <!--=============== BREADCRUMB ===============-->
-    <section class="breadcrumb">
+    <!-- <section class="breadcrumb">
       <ul class="breadcrumb__list flex container">
         <li><a href="index.html" class="breadcrumb__link">Home</a></li>
         <li><span class="breadcrumb__link"></span>></li>
         <li><span class="breadcrumb__link">Shop</span></li>
       </ul>
-    </section>
+    </section> -->
 
     <!--=============== PRODUCTS ===============-->
 
@@ -134,15 +137,57 @@
     </section> -->
 
 
+
+
+
+
+
+
+
     <section class="products container row col-lg-12">
       <!-- <p class="total__products">SELECT YOUR PHOTOS! <span></span></p> -->
 
+      <!-- <div class="header__contact">
+            <span><i class="fa-brands fa-whatsapp"></i></span>
+            <span><i class="fa-brands fa-facebook-f"></i>(+91 9144493444)</span>
+          </div> -->
+      <!-- <p class="header__alert-news">
+          </p> -->
+      <div style="width: 100%;">
+        <ul class="nav__list" style="float: right; padding-right: 40px;">
+          <li class="nav__item">
+
+            <a href="#" class="nav__link" style="padding-right: 500px; color: rgb(136, 136, 136);">Showing 123
+              photos</a>
+
+
+
+          </li>
+          <li class="nav__item">
+
+            <a href="#" class="nav__link" style="padding-right: 20px; color: rgb(136, 136, 136);"><img
+                src="./assets/img/sort-descending-6609.svg" alt="" style="padding-right: 6px;">SORT</a>
+
+            <a href="#" class="nav__link">Popularities</a>
+            <div id="dropdown">
+              <a href="">Popularities</a>
+              <a href="">What's New</a>
+              <a href="">Price: low to high</a>
+              <a href="">Price: high to low</a>
+              <a href="">A to Z</a>
+              <a href="">Z to A</a>
+              <a href="">Customer Rating</a>
+            </div>
+          </li>
+        </ul>
+      </div>
 
 
       <div class="sidebar col-lg-3">
-        <h3>Product Search</h3>
-        <input type="text" placeholder="Product Search..." class="form__input" />
-
+        <h3><img style="width: 30px; height: 30px; margin-right: 20px;" src="assets/img/noun-filter-4800805.svg"
+            alt="" />Filter</h3>
+        <!-- <input type="text" placeholder="Product Search..." class="form__input" /> -->
+        <hr>
         <h3>Category</h3>
         <ul class="category-list">
           <li><input type="checkbox" class="checkboxsyle">Photo Paper Media</li>
@@ -152,8 +197,8 @@
           <li><input type="checkbox" class="checkboxsyle">Scenary Photo</li>
           <li><input type="checkbox" class="checkboxsyle">Acrylic Magnet Photo</li>
         </ul>
+        <hr>
         <h3>Price Range</h3>
-
         <ul class="category-list">
           <li><input type="checkbox" class="checkboxsyle">Under <i class="bi bi-currency-rupee"></i>300</li>
           <li><input type="checkbox" class="checkboxsyle"><i class="bi bi-currency-rupee"></i>300 - <i
@@ -164,9 +209,8 @@
               class="bi bi-currency-rupee"></i>2000</li>
           <li><input type="checkbox" class="checkboxsyle"><i class="bi bi-currency-rupee"></i>2000 - <i
               class="bi bi-currency-rupee"></i>3000</li>
-
         </ul>
-
+        <hr>
         <h3>Discount Range</h3>
 
         <ul class="category-list">
@@ -176,13 +220,56 @@
           <li><input type="checkbox" class="checkboxsyle">40% Off or More</li>
           <li><input type="checkbox" class="checkboxsyle">50% Off or More</li>
         </ul>
+
+        <hr>
+        <h3>Review Range</h3>
+
+        <ul class="category-list">
+          <li><input type="checkbox" class="checkboxsyle"> 
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+           </li>
+          <li><input type="checkbox" class="checkboxsyle"> 
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+           </li>
+          <li><input type="checkbox" class="checkboxsyle"> 
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+           </li>
+          <li><input type="checkbox" class="checkboxsyle"> 
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+           </li>
+          <li><input type="checkbox" class="checkboxsyle"> 
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+              <i class="fi fi-rs-star"></i>
+           </li>
+        </ul>
+
       </div>
+
       <div class="products__container grid col-lg-9">
         <div class="product__item">
           <div class="product__banner">
             <a href="details.html" class="product__images">
               <img id="productImage" src="assets/img/Annapoorani-Golden Statue.jpg" alt=""
-                class="product__img default" />
+                class="product__img default" style="height: 300px;" />
             </a>
             <div class="product__actions">
               <a href="#" class="action__btn" aria-label="Add to Wishlist">
@@ -205,17 +292,16 @@
             <div class="product__price flex">
               <span class="new__price">$238.85</span>
               <span class="old__price">$245.8</span>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
             </div>
-            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-              <i class="fi fi-rs-shopping-bag-add"></i>
-            </a>
           </div>
         </div>
         <div class="product__item">
           <div class="product__banner">
             <a href="details.html" class="product__images">
-              <img src="assets/img/annapoorani2.jpg" alt="" class="product__img default" />
-
+              <img src="assets/img/annapoorani2.jpg" alt="" class="product__img default" style="height: 300px;" />
             </a>
             <div class="product__actions">
 
@@ -239,16 +325,16 @@
             <div class="product__price flex">
               <span class="new__price">$238.85</span>
               <span class="old__price">$245.8</span>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
             </div>
-            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-              <i class="fi fi-rs-shopping-bag-add"></i>
-            </a>
           </div>
         </div>
         <div class="product__item">
           <div class="product__banner">
             <a href="details.html" class="product__images">
-              <img src="assets/img/ardhanareeshwara 02.jpg" alt="" class="product__img default" />
+              <img src="assets/img/ardhanareeshwara 02.jpg" alt="" class="product__img default" style="height: 300px;" />
             </a>
             <div class="product__actions">
               <a href="#" class="action__btn" aria-label="Add to Wishlist">
@@ -271,16 +357,16 @@
             <div class="product__price flex">
               <span class="new__price">$238.85</span>
               <span class="old__price">$245.8</span>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
             </div>
-            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-              <i class="fi fi-rs-shopping-bag-add"></i>
-            </a>
           </div>
         </div>
         <div class="product__item">
           <div class="product__banner">
             <a href="details.html" class="product__images">
-              <img src="assets/img/Bharatha Maatha.jpg" alt="" class="product__img default" />
+              <img src="assets/img/Bharatha Maatha.jpg" alt="" class="product__img default" style="height: 300px;" />
 
             </a>
             <div class="product__actions">
@@ -307,16 +393,16 @@
             <div class="product__price flex">
               <span class="new__price">$238.85</span>
               <span class="old__price">$245.8</span>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
             </div>
-            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-              <i class="fi fi-rs-shopping-bag-add"></i>
-            </a>
           </div>
         </div>
         <div class="product__item">
           <div class="product__banner">
             <a href="details.html" class="product__images">
-              <img src="assets/img/bikshadhana moorthy.jpg" alt="" class="product__img default" />
+              <img src="assets/img/bikshadhana moorthy.jpg" alt="" class="product__img default" style="height: 300px;" />
             </a>
             <div class="product__actions">
               <a href="#" class="action__btn" aria-label="Add to Wishlist">
@@ -339,16 +425,16 @@
             <div class="product__price flex">
               <span class="new__price">$238.85</span>
               <span class="old__price">$245.8</span>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
             </div>
-            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-              <i class="fi fi-rs-shopping-bag-add"></i>
-            </a>
           </div>
         </div>
         <div class="product__item">
           <div class="product__banner">
             <a href="details.html" class="product__images">
-              <img src="assets/img/chandrasekara moorthy.jpg" alt="" class="product__img default" />
+              <img src="assets/img/chandrasekara moorthy.jpg" alt="" class="product__img default" style="height: 300px;" />
 
             </a>
             <div class="product__actions">
@@ -375,16 +461,17 @@
             <div class="product__price flex">
               <span class="new__price">$238.85</span>
               <span class="old__price">$245.8</span>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
             </div>
-            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-              <i class="fi fi-rs-shopping-bag-add"></i>
-            </a>
+
           </div>
         </div>
         <div class="product__item">
           <div class="product__banner">
             <a href="details.html" class="product__images">
-              <img src="assets/img/Dakshinamoorthy - suruttapalli.jpg" alt="" class="product__img default" />
+              <img src="assets/img/Dakshinamoorthy - suruttapalli.jpg" alt="" class="product__img default" style="height: 300px;" />
 
             </a>
             <div class="product__actions">
@@ -399,7 +486,7 @@
           <div class="product__content">
             <span class="product__category">God Photo Frames</span>
             <a href="details.html">
-              <h3 class="product__title">Dakshinamoorthy - suruttapalli Photo</h3>
+              <h3 class="product__title">Dakshinamoorthy - suruttapalli</h3>
             </a>
             <div class="product__rating">
               <i class="fi fi-rs-star"></i>
@@ -411,16 +498,17 @@
             <div class="product__price flex">
               <span class="new__price">$238.85</span>
               <span class="old__price">$245.8</span>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
             </div>
-            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-              <i class="fi fi-rs-shopping-bag-add"></i>
-            </a>
+
           </div>
         </div>
         <div class="product__item">
           <div class="product__banner">
             <a href="details.html" class="product__images">
-              <img src="assets/img/gaja lakshmi.jpg" alt="" class="product__img default" />
+              <img src="assets/img/comatha.jpg" alt="" class="product__img default" style="height: 300px;" />
             </a>
             <div class="product__actions">
 
@@ -444,16 +532,16 @@
             <div class="product__price flex">
               <span class="new__price">$238.85</span>
               <span class="old__price">$245.8</span>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
             </div>
-            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-              <i class="fi fi-rs-shopping-bag-add"></i>
-            </a>
           </div>
         </div>
         <div class="product__item">
           <div class="product__banner">
             <a href="details.html" class="product__images">
-              <img src="assets/img/gayathri.jpg" alt="" class="product__img default" />
+              <img src="assets/img/gayathri.jpg" alt="" class="product__img default" style="height: 300px;" />
             </a>
             <div class="product__actions">
               <a href="#" class="action__btn" aria-label="Add to Wishlist">
@@ -476,16 +564,17 @@
             <div class="product__price flex">
               <span class="new__price">$238.85</span>
               <span class="old__price">$245.8</span>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
             </div>
-            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-              <i class="fi fi-rs-shopping-bag-add"></i>
-            </a>
+
           </div>
         </div>
         <div class="product__item">
           <div class="product__banner">
             <a href="details.html" class="product__images">
-              <img src="assets/img/god 2.jpg" alt="" class="product__img default" />
+              <img src="assets/img/god 2.jpg" alt="" class="product__img default" style="height: 300px;" />
             </a>
             <div class="product__actions">
 
@@ -511,16 +600,17 @@
             <div class="product__price flex">
               <span class="new__price">$238.85</span>
               <span class="old__price">$245.8</span>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
             </div>
-            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-              <i class="fi fi-rs-shopping-bag-add"></i>
-            </a>
+
           </div>
         </div>
         <div class="product__item">
           <div class="product__banner">
             <a href="details.html" class="product__images">
-              <img src="assets/img/gandhimathi.jpg" alt="" class="product__img default" />
+              <img src="assets/img/gandhimathi.jpg" alt="" class="product__img default" style="height: 300px;" />
 
             </a>
             <div class="product__actions">
@@ -547,16 +637,17 @@
             <div class="product__price flex">
               <span class="new__price">$238.85</span>
               <span class="old__price">$245.8</span>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
             </div>
-            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-              <i class="fi fi-rs-shopping-bag-add"></i>
-            </a>
+
           </div>
         </div>
         <div class="product__item">
           <div class="product__banner">
             <a href="details.html" class="product__images">
-              <img src="assets/img/comatha.jpg" alt="" class="product__img default" />
+              <img src="assets/img/comatha.jpg" alt="" class="product__img default" style="height: 300px;" />
 
             </a>
             <div class="product__actions">
@@ -582,10 +673,11 @@
             <div class="product__price flex">
               <span class="new__price">$238.85</span>
               <span class="old__price">$245.8</span>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
             </div>
-            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
-              <i class="fi fi-rs-shopping-bag-add"></i>
-            </a>
+
           </div>
         </div>
       </div>
@@ -626,16 +718,16 @@
         </a>
         <h4 class="footer__subtitle">Contact</h4>
         <p class="footer__description">
-          <span>Address:</span> 13 Tlemcen Road, Street 32, Beb-Wahren
+          <span>Address:</span> 115, Big street, Pattukottai, Thanjavur, TamilNadu, 614601
         </p>
         <p class="footer__description">
-          <span>Phone:</span> +01 2222 365 /(+91) 01 2345 6789
+          <span>Phone:</span> (+91) 91 444 93444
         </p>
         <p class="footer__description">
           <span>Hours:</span> 10:00 - 18:00, Mon - Sat
         </p>
         <div class="footer__social">
-          <h4 class="footer__subtitle">Follow Me</h4>
+          <h4 class="footer__subtitle">Social Networks</h4>
           <div class="footer__links flex">
             <a href="#">
               <img src="./assets/img/icon-facebook.svg" alt="" class="footer__social-icon" />
@@ -647,7 +739,7 @@
               <img src="./assets/img/icon-instagram.svg" alt="" class="footer__social-icon" />
             </a>
             <a href="#">
-              <img src="./assets/img/icon-pinterest.svg" alt="" class="footer__social-icon" />
+              <img src="./assets/img/telegram-plane.svg" alt="" class="footer__social-icon" />
             </a>
             <a href="#">
               <img src="./assets/img/icon-youtube.svg" alt="" class="footer__social-icon" />
