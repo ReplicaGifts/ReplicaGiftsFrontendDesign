@@ -27,21 +27,20 @@
 <body>
   <!--=============== HEADER ===============-->
   <header class="header">
-    <div class="header__top">
+    <!-- <div class="header__top">
       <div class="header__container container">
         <div class="header__contact">
           <span><i class="fa-brands fa-whatsapp"></i></span>
           <span><i class="fa-brands fa-facebook-f"></i>(+91 9144493444)</span>
         </div>
-        <!-- <p class="header__alert-news">
-        </p> -->
+    
         <div>
           <a href="login-register.html" class="header__top-action"><i class="bi bi-person"></i>
             Log In / Sign Up
           </a>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <nav class="nav container">
       <a href="index.html" class="nav__logo" data-aos="fade-right">
@@ -114,7 +113,12 @@
     </nav>
   </header>
 
+  <div class="headertop" style="background-color: rgb(41, 41, 41);padding-bottom: 120px;">
 
+    <div
+      style="padding-top: 100px; display: flex; align-items: center; justify-content: center; color: white;font-size: 40px;  font-weight: 800; letter-spacing: 1px;">
+      Checkout</div>
+  </div>
 
   <!--=============== MAIN ===============-->
   <main class="main">
@@ -141,20 +145,20 @@
               >Name</label>
               <input type="text" class="form-control" id="inputName" placeholder="" required="required">
             </div> -->
-          
-              <div class="new required col-md-6">
-                  <label class='control-label'>
-                   First name
-                  </label>
-                  <input type="text" class="form-control" id="inputName" placeholder="" required="required">
-              </div>
-           
 
-              <div class="new required col-md-6">
-                <label class='control-label'>
-                  Last name
-                </label>
-                <input type="text" class="form-control" id="inputName" placeholder="" required="required">
+            <div class="new required col-md-6">
+              <label class='control-label'>
+                First name
+              </label>
+              <input type="text" class="form-control" id="inputName" placeholder="" required="required">
+            </div>
+
+
+            <div class="new required col-md-6">
+              <label class='control-label'>
+                Last name
+              </label>
+              <input type="text" class="form-control" id="inputName" placeholder="" required="required">
             </div>
             <!-- <div class="new required col-md-6">
               <label for="inputEmail" class="form-label">Email</label>
@@ -166,27 +170,26 @@
                 Email
               </label>
               <input type="email" class="form-control" id="inputName" placeholder="" required="required">
-          </div>
+            </div>
 
             <!-- <div class="new required col-md-6">
               <label for="inputCity" class="form-label">City</label>
               <input type="text" class="form-control" id="inputCity" placeholder="">
             </div> -->
 
-
             <div class="new required col-md-6">
               <label class='control-label'>
                 City
               </label>
               <input type="text" class="form-control" id="inputName" placeholder="" required="required">
-          </div>
+            </div>
 
             <!-- <div class="new required col-md-6">
               <label for="inputCountry" class="form-label">Country</label>
               <input type="text" class="form-control" id="inputCountry" placeholder="">
             </div> -->
 
-         
+
 
 
             <!-- <div class="col-md-12">
@@ -197,43 +200,41 @@
 
             <div class="new required col-md-12">
               <label class='control-label'>
-               Street Address
+                Street Address
               </label>
               <input type="text" class="form-control" id="inputName" placeholder="" required="required">
-          </div>
+            </div>
 
-          <div class="new required col-md-12">
-            <label class='control-label'>
-              State
-            </label>
-            <select class="form-control" id="inputName" required="required">
-              <option value="">Select a state</option>
-              <option value="Alabama">Alabama</option>
-              <option value="Alaska">Alaska</option>
-              <!-- Add more options for other states -->
-            </select>
-          </div>
-          
+            <div class="new required col-md-12">
+              <label class='control-label'>
+                State
+              </label>
+              <select class="form-control" id="inputName" required="required">
+                <option value="">Select a state</option>
+                <option value="Alabama">Alabama</option>
+                <option value="Alaska">Alaska</option>
+                <!-- Add more options for other states -->
+              </select>
+            </div>
 
-          <div class="new required col-md-12">
-            <label class='control-label'>
-              Country
-            </label>
-            <input type="text" class="form-control" id="inputName" placeholder="" required="required">
-        </div>
+
+            <div class="new required col-md-12">
+              <label class='control-label'>
+                Country
+              </label>
+              <input type="text" class="form-control" id="inputName" placeholder="" required="required">
+            </div>
             <!-- <div class="new required col-md-6">
               <label for="inputPostcode" class="form-label">Postcode</label>
               <input type="text" class="form-control" id="inputPostcode" placeholder="">
             </div> -->
-
 
             <div class="new required col-md-12">
               <label class='control-label'>
                 Postcode
               </label>
               <input type="text" class="form-control" id="inputName" placeholder="" required="required">
-          </div>
-
+            </div>
 
             <!-- <div class="new required col-md-6">
               <label for="inputPhone" class="form-label">Phone</label>
@@ -246,12 +247,9 @@
                 Phone
               </label>
               <input type="text" class="form-control" id="inputName" placeholder="" required="required">
-          </div>
-
-
+            </div>
           </form>
         </div>
-
 
 
         <div class="checkout__group">
@@ -295,10 +293,10 @@
                 <td><span class="table__price">$35.00</span></td>
               </tr>
               <tr>
-                <td><span class="order__subtitle">Total</span></td>
                 <td>
                   <span class="order__grand-total"></span>
                 </td>
+                <td><span class="order__subtitle">Total</span></td>
                 <td>
                   <span class="order__grand-total">$280.00</span>
                 </td>
@@ -411,7 +409,3 @@
 </body>
 
 </html>
-
-
-
-
