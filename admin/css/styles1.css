@@ -555,6 +555,7 @@ table {
   color: var(--body-color);
   padding-inline: 1.75rem;
   /* padding: 0.75rem 1.75rem; */
+  width: 100%;
   height: 49px;
   line-height: 43px;
   font-family: var(--second-font);
@@ -602,7 +603,10 @@ table {
   color: var(--first-color);
   padding-inline: 1.75rem;
   /* padding: 0.75rem 1.75rem; */
-  height: 49px;
+  text-align: center;
+  box-shadow: #aaa;
+  width: 100%;
+  height: 45px;
   line-height: 43px;
   font-family: var(--second-font);
   font-size: var(--small-font-size);
@@ -2853,12 +2857,13 @@ color: rgb(255, 89, 0) ;
 
 main .main-content {
   display: flex;
-  padding: 50px;
-
+  /* padding: 50px; */
+  /* padding-bottom: 60px; */
+  
 }
 
 main .main-content h3 {
-  background-color: var(--text-color);
+  background-color: var(--title-color);
   color: white;
   text-transform: uppercase;
   padding: 10px;
@@ -2867,8 +2872,8 @@ main .main-content h3 {
 
 main .sidebar {
   width: 20%;
-  min-height: 500px;
-  padding: 5px;
+  height: 2000px;
+  /* padding: 5px; */
   border: 1px solid rgba(236, 240, 241, 0.3);
   background-color: var(--text-color);
   border-radius: 4px;
@@ -2902,9 +2907,9 @@ main .sidebar ul li a:hover {
 }
 
 main .content {
-  width: 78%;
-  padding: 5px;
-  border: 1px solid rgba(236, 240, 241, 0.3);
+  width: 100%;
+  /* padding: 5px; */
+  /* border: 1px solid rgba(236, 240, 241, 0.3); */
 }
 
 main .dashboard .content-data {
@@ -2918,6 +2923,7 @@ main .dashboard .content-data .content-detail {
   width: 100% !important;
   height: 100%;
   padding-left: 0px !important;
+  padding-top: 20px;
 }
 
 main .content .content-data {
@@ -2927,7 +2933,7 @@ main .content .content-data {
 }
 
 main .content .content-data .content-form {
-  width: 50%;
+  width: 100%;
   border-right: 1px solid #eee;
   padding-right: 10px;
 }
@@ -2949,12 +2955,12 @@ main h4 {
 }
 
 main form .form-group {
-  margin: 10px 0;
+  margin: 25px 0;
   width: 100%;
 }
 
 main form label {
-  color: var(--darkStaleGray);
+  color: var(--text-color);
   display: block;
   margin-bottom: 6px;
 }
@@ -2963,7 +2969,7 @@ main form .form-group input,
 main form .form-group select,
 main form .form-group textarea {
   width: 100%;
-  padding: 8px 5px;
+  padding: 12px 5px;
   border: 1px solid var(--border-color-alt) !important;
   border-radius: 3px;
 }

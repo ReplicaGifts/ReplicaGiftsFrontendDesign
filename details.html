@@ -16,6 +16,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
   <!--=============== CSS ===============-->
   <link rel="stylesheet" href="assets/css/styles.css" />
 
@@ -60,13 +62,13 @@
         </div>
         <ul class="nav__list" data-aos="fade-left">
           <li class="nav__item">
-            <a href="index.html" class="nav__link active-link">Home</a>
+            <a href="index.html" class="nav__link active-link"><i class="bi bi-house"></i>Home</a>
           </li>
           <li class="nav__item">
-            <a href="shop.html" class="nav__link">Shop</a>
+            <a href="shop.html" class="nav__link"><i class="bi bi-shop"></i>Shop</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__link">Categories</a>
+            <a href="#" class="nav__link"><i class="bi bi-list"></i>Categories</a>
             <div id="dropdown">
               <a href="">Photo Paper Media</a>
               <a href="">Canvas Media</a>
@@ -77,20 +79,20 @@
               <a href="">Name Badges</a>
             </div>
           </li>
-       
+
           <li class="nav__item">
-            <a href="accounts.html" class="nav__link">My Account</a>
+            <a href="accounts.html" class="nav__link"><i class="bi bi-person"></i>My Account</a>
           </li>
 
           <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
+            <a href="#contact" class="nav__link"><i class="bi bi-telephone"></i>Contact</a>
           </li>
           <!-- <li class="nav__item">
             <a href="login-register.html" class="nav__link">Login</a>
           </li> -->
         </ul>
         <div class="header__search" data-aos="fade-left">
-          <input type="text" placeholder="Search For Items..." class="form__input" />
+          <input type="text" placeholder="Search Photos..." class="form__input" />
           <button class="search__btns">
             <img src="assets/img/search-icon.svg" alt="search icon" />
           </button>
@@ -98,11 +100,11 @@
       </div>
       <div class="header__user-actions" data-aos="fade-left">
         <a href="wishlist.html" class="header__action-btn" title="Wishlist">
-          <img src="assets/img/icon-heart.svg" alt="" />
+          <img src="assets/img/love (1).png" alt="" />
           <span class="count">3</span>
         </a>
         <a href="cart.html" class="header__action-btn" title="Cart">
-          <img src="assets/img/icon-cart.svg" alt="" />
+          <img src="assets/img/shopping-cart (1).png" alt="" />
           <span class="count">3</span>
         </a>
         <div class="header__action-btn nav__toggle" id="nav-toggle">
@@ -117,46 +119,35 @@
   <!--=============== MAIN ===============-->
   <main class="main">
     <!--=============== BREADCRUMB ===============-->
-    <section class="breadcrumb">
-      <div class="breadcrumb__list flex container">
-        <li><a href="index.html" class="breadcrumb__link">Home</a></li>
-        <li><span class="breadcrumb__link"></span>></li>
-        <li><span class="breadcrumb__link">Fashion</span></li>
-        <!-- <li><span class="breadcrumb__link"></span>></li>
-        <li><span class="breadcrumb__link">Henley Shirt</span></li> -->
-      </div>
-    </section>
+
 
     <!--=============== DETAILS ===============-->
     <section class="details section--lg">
       <div class="details__container container grid">
         <div class="details__group">
-          <img src="assets/img/annapoorani2.jpg" alt="" class="details__img" />
-
+          <img src="assets/img/comatha.jpg" alt="" class="details__img" />
         </div>
         <div class="details__group">
-          <h3 class="details__title">Annapoorani</h3>
+          <h3 class="details__title">Comatha</h3>
           <!-- <p class="details__brand">Brand: <span>adidas</span></p> -->
-          <a class="form-label" style="color: rgb(94, 94, 94);">
-            Category:
-          </a>  <a class="short__description" style="color: rgb(106, 106, 106);">
-            Rare God photos
-          </a>
-<br>
-<br>
-          <a class="form-label" style="color: rgb(94, 94, 94);">
-            Description:
-          </a>  <a class="short__description" style="color: rgb(106, 106, 106);">
-            Rare God Great low price and works well photos
-          </a>
           <div class="details__price flex">
             <span class="new__price">$116</span>
             <span class="old__price">$200.00</span>
             <span class="save__price">25% Off</span>
           </div>
-        
 
-
+          <a class="form-label" style="color: rgb(57, 57, 57);">
+            Category:
+          </a> <a class="short__description" style="color: rgb(106, 106, 106);">
+            Rare God photos
+          </a>
+          <br>
+          <br>
+          <a class="form-label" style="color: rgb(57, 57, 57);">
+            Description:
+          </a> <a class="short__description" style="color: rgb(106, 106, 106);">
+            Rare God Great low price and works well photos
+          </a>
           <div class="details__meta">
             <div class="meta__list">
               <label class="form-label" for="customFile">Upload Image:</label>
@@ -197,20 +188,20 @@
             </div>
           </div>
 
-         
 
-<div style="display: flex; justify-content: space-between;">
-          <div class="details__action">
-            <!-- <input type="number" class="quantity" value="3" /> -->
-            <a href="#" class="btns btn--sm">Add To Cart</a>
-            <!-- <a href="#" class="details__action-btn">
-              <i class="fi fi-rs-heart"></i>
-            </a> -->
-          </div>
-          <div class="details__action">
-            <!-- <input type="number" class="quantity" value="3" /> -->
-            <a href="#" class="btns1 btn--sm">Buy Now</a>
-          </div>
+          <div style="display: block; justify-content: space-between;">
+            <div class="details__action">
+              <!-- <input type="number" class="quantity" value="3" /> -->
+              <a href="#" class="btns btn--sm">Add To Cart</a>
+              <!-- <a href="#" class="details__action-btn">
+                <i class="fi fi-rs-heart"></i>
+              </a> -->
+            </div>
+
+            <div class="details__action">
+              <!-- <input type="number" class="quantity" value="3" /> -->
+              <a href="#" class="btns1 btn--sm">Buy Now</a>
+            </div>
           </div>
         </div>
       </div>
@@ -230,33 +221,33 @@
         <div class="details__tab-content active-tab" content id="info">
           <table class="info__table">
 
-            <tr>
+            <!-- <tr>
               <th>Door Pass THrough</th>
               <td>24</td>
-            </tr>
-            <tr>
+            </tr> -->
+            <!-- <tr>
               <th>Frame</th>
               <td>Aluminum</td>
-            </tr>
-            <tr>
+            </tr> -->
+            <!-- <tr>
               <th>Weight (w/o wheels)</th>
               <td>20 LBS</td>
             </tr>
             <tr>
               <th>Weight Capacity</th>
               <td>60 LBS</td>
-            </tr>
+            </tr> -->
             <tr>
               <th>Width</th>
               <td>24</td>
             </tr>
             <tr>
-              <th>Handle Height (ground to handle)</th>
+              <th>Height</th>
               <td>37-45</td>
             </tr>
             <tr>
-              <th>Size</th>
-              <td>M, S</td>
+              <th>Category</th>
+              <td>Rare God Photos</td>
             </tr>
           </table>
         </div>
@@ -357,7 +348,7 @@
                 <img src="assets/img/product-1-2.jpg" alt="" class="product__img hover" />
               </a>
               <div class="product__actions">
-                
+
                 <a href="#" class="action__btn" aria-label="Add to Wishlist">
                   <i class="fi fi-rs-heart"></i>
                 </a>
@@ -383,7 +374,7 @@
                   <i class="fi fi-rs-shopping-bag-add"></i>
                 </a>
               </div>
-        
+
             </div>
           </div>
           <div class="product__item swiper-slide" data-aos="flip-right">
@@ -393,7 +384,7 @@
                 <img src="assets/img/product-2-2.jpg" alt="" class="product__img hover" />
               </a>
               <div class="product__actions">
-                
+
                 <a href="#" class="action__btn" aria-label="Add to Wishlist">
                   <i class="fi fi-rs-heart"></i>
                 </a>
@@ -420,7 +411,7 @@
                   <i class="fi fi-rs-shopping-bag-add"></i>
                 </a>
               </div>
-            
+
             </div>
           </div>
           <div class="product__item swiper-slide" data-aos="flip-right">
@@ -430,7 +421,7 @@
                 <img src="assets/img/product-3-2.jpg" alt="" class="product__img hover" />
               </a>
               <div class="product__actions">
-                
+
                 <a href="#" class="action__btn" aria-label="Add to Wishlist">
                   <i class="fi fi-rs-heart"></i>
                 </a>
@@ -457,7 +448,7 @@
                   <i class="fi fi-rs-shopping-bag-add"></i>
                 </a>
               </div>
-        
+
             </div>
           </div>
           <div class="product__item swiper-slide" data-aos="flip-right">
@@ -467,7 +458,7 @@
                 <img src="assets/img/product-3-4.jpg" alt="" class="product__img hover" />
               </a>
               <div class="product__actions">
-                
+
                 <a href="#" class="action__btn" aria-label="Add to Wishlist">
                   <i class="fi fi-rs-heart"></i>
                 </a>
@@ -492,7 +483,7 @@
                   <i class="fi fi-rs-shopping-bag-add"></i>
                 </a>
               </div>
-           
+
             </div>
           </div>
 
@@ -536,60 +527,60 @@
         </a>
         <h4 class="footer__subtitle">Contact</h4>
         <p class="footer__description">
-          <span>Address:</span> 13 Tlemcen Road, Street 32, Beb-Wahren
+          <span>Address:</span> 115, Big street, Pattukottai, Thanjavur, TamilNadu, 614601
         </p>
         <p class="footer__description">
-          <span>Phone:</span> +01 2222 365 /(+91) 01 2345 6789
+          <span>Phone:</span> (+91) 91 444 93444
         </p>
         <p class="footer__description">
           <span>Hours:</span> 10:00 - 18:00, Mon - Sat
         </p>
         <div class="footer__social">
-          <h4 class="footer__subtitle">Follow Me</h4>
+          <h4 class="footer__subtitle">Social Networks</h4>
           <div class="footer__links flex">
             <a href="#">
-              <img src="assets/img/icon-facebook.svg" alt="" class="footer__social-icon" />
+              <img src="./assets/img/icon-facebook.svg" alt="" class="footer__social-icon" />
             </a>
             <a href="#">
-              <img src="assets/img/icon-twitter.svg" alt="" class="footer__social-icon" />
+              <img src="./assets/img/icon-twitter.svg" alt="" class="footer__social-icon" />
             </a>
             <a href="#">
-              <img src="assets/img/icon-instagram.svg" alt="" class="footer__social-icon" />
+              <img src="./assets/img/icon-instagram.svg" alt="" class="footer__social-icon" />
             </a>
             <a href="#">
-              <img src="assets/img/icon-pinterest.svg" alt="" class="footer__social-icon" />
+              <img src="./assets/img/telegram-plane.svg" alt="" class="footer__social-icon" />
             </a>
             <a href="#">
-              <img src="assets/img/icon-youtube.svg" alt="" class="footer__social-icon" />
+              <img src="./assets/img/icon-youtube.svg" alt="" class="footer__social-icon" />
             </a>
           </div>
         </div>
       </div>
       <div class="footer__content">
         <h3 class="footer__title">Address</h3>
-        <div class="footer__links">
+        <ul class="footer__links">
           <li><a href="#" class="footer__link">About Us</a></li>
           <!-- <li><a href="#" class="footer__link">Delivery Information</a></li> -->
           <li><a href="#" class="footer__link">Privacy Policy</a></li>
           <li><a href="#" class="footer__link">Terms & Conditions</a></li>
           <li><a href="#" class="footer__link">Contact Us</a></li>
           <li><a href="#" class="footer__link">Support Center</a></li>
-        </div>
+        </ul>
       </div>
       <div class="footer__content">
         <h3 class="footer__title">My Account</h3>
-        <div class="footer__links">
+        <ul class="footer__links">
           <li><a href="#" class="footer__link">Sign In</a></li>
           <li><a href="#" class="footer__link">View Cart</a></li>
           <li><a href="#" class="footer__link">My Wishlist</a></li>
           <!-- <li><a href="#" class="footer__link">Track My Order</a></li> -->
           <li><a href="#" class="footer__link">Help</a></li>
           <li><a href="#" class="footer__link">Order</a></li>
-        </div>
+        </ul>
       </div>
       <div class="footer__content">
         <h3 class="footer__title">Secured Payed Gateways</h3>
-        <img src="assets/img/payment-method.png" alt="" class="payment__img" />
+        <img src="./assets/img/payment-method.png" alt="" class="payment__img" />
       </div>
     </div>
     <div class="footer__bottom">
@@ -626,6 +617,3 @@
 </body>
 
 </html>
-
-
-
