@@ -666,6 +666,8 @@ table {
   color: var(--body-color);
   padding-inline: 1.75rem;
   /* padding: 0.75rem 1.75rem; */
+  text-align: center;
+  width: 100%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
   height: 45px;
   line-height: 43px;
@@ -1080,6 +1082,10 @@ table {
 ::-webkit-scrollbar-thumb:hover {
   background: #a8a8a8;
   /* Change the color of the scrollbar handle on hover */
+}
+
+.table {
+  overflow: scroll;
 }
 
 .action__btn {
@@ -1988,7 +1994,7 @@ padding-top: 20px;
 
 /*=============== CART ===============*/
 .table__container {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
 }
 
@@ -2486,7 +2492,7 @@ input.qtyminus {
 
 .placed__order-table thead tr th {
   color: var(--title-color);
-  text-align: center;
+
 }
 
 .placed__order-table thead tr th,
@@ -2494,6 +2500,7 @@ input.qtyminus {
   border: 1px solid var(--border-color-alt);
   padding: 0.5rem;
   font-size: var(--small-font-size);
+  text-align: left;
 }
 
 .view__order,
@@ -2522,6 +2529,10 @@ input.qtyminus {
     max-width: 1120px;
   }
 
+  .table__container {
+    overflow: auto !important;
+  }
+
   .products__container,
   .showcase__container {
     grid-template-columns: repeat(3, 1fr);
@@ -2539,6 +2550,10 @@ input.qtyminus {
 
   .header__top {
     display: none;
+  }
+
+  .table__container {
+    overflow: auto !important;
   }
 
   .nav {
@@ -2697,6 +2712,11 @@ input.qtyminus {
     max-width: 776px;
   }
 
+  .table__container {
+    overflow: auto;
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+  }
+
   .home__container,
   .deals__container,
   .checkout__container,
@@ -2803,6 +2823,11 @@ input.qtyminus {
   } */
 }
 
+.table__container {
+  overflow: auto;
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+}
+
 /* For small devices */
 @media screen and (max-width: 576px) {
   .category__item {
@@ -2811,6 +2836,11 @@ input.qtyminus {
 
   .category__img {
     margin-bottom: 1rem;
+  }
+
+  .table__container {
+    overflow: auto;
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
   }
 
   .deals__item,
@@ -2917,6 +2947,11 @@ input.qtyminus {
 
   .cart__actions {
     justify-content: center;
+  }
+
+  .table__container {
+    overflow: auto;
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
   }
 
   /* .home__img {
