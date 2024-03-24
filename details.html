@@ -18,6 +18,15 @@
 
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 
+
+
+  <!-- Vendor CSS Files -->
+  <!-- <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
   <!--=============== CSS ===============-->
   <link rel="stylesheet" href="assets/css/styles.css" />
 
@@ -127,77 +136,308 @@
         <div class="details__group">
           <img src="assets/img/comatha.jpg" alt="" class="details__img" />
         </div>
-        <div class="details__group">
-          <h3 class="details__title">Comatha</h3>
-          <!-- <p class="details__brand">Brand: <span>adidas</span></p> -->
-          <div class="details__price flex">
-            <span class="new__price">$116</span>
-            <span class="old__price">$200.00</span>
-            <span class="save__price">25% Off</span>
-          </div>
-          <a class="form-label" style="color: rgb(57, 57, 57);">
-            Category:
-          </a> <a class="short__description" style="color: rgb(106, 106, 106);">
-            Rare God photos
-          </a>
-          <br>
-          <br>
-          <a class="form-label" style="color: rgb(57, 57, 57);">
-            Description:
-          </a> <a class="short__description" style="color: rgb(106, 106, 106);">
-            Rare God Great low price and works well photos
-          </a>
-          <div class="details__meta">
-            <div class="meta__list">
-              <label class="form-label" for="customFile">Upload Image:</label>
-              <input type="file" class="form-control" id="customFile" />
+        <div class="detailscroll">
+          <div class="details__group">
+            <h3 class="details__title">Comatha</h3>
+            <!-- <p class="details__brand">Brand: <span>adidas</span></p> -->
+            <div class="details__price flex">
+              <span class="new__price">$116</span>
+              <span class="old__price">$200.00</span>
+              <span class="save__price">25% Off</span>
             </div>
-          </div>
-
-
-          <div style="display: flex; justify-content: space-between;">
+            <a class="form-label" style="color: rgb(57, 57, 57);">
+              Category:
+            </a> <a class="short__description" style="color: rgb(106, 106, 106);">
+              Rare God photos
+            </a>
+            <br>
+            <br>
+            <a class="form-label" style="color: rgb(57, 57, 57);">
+              Description:
+            </a> <a class="short__description" style="color: rgb(106, 106, 106);">
+              Rare God Great low price and works well photos
+            </a>
             <div class="details__meta">
               <div class="meta__list">
-                <p class="form-label">Select Print Type:</p>
-                <select id="quantitySelect">
-                  <option value="1">Acrylic Media</option>
-                  <option value="2">Photo Paper Media</option>
-                  <option value="3">Canvas Media</option>
-                </select>
+                <label class="form-label" for="customFile">Upload Image:</label>
+                <input type="file" class="form-control" id="customFile" />
               </div>
             </div>
 
-            <!-- <span class="details__size-title">Size</span> -->
-            <div class="details__meta">
-              <div class="meta__list">
-                <p class="form-label">Size:</p>
-                <select id="quantitySelect">
-                  <option value="1">12x18 inches</option>
-                  <option value="2">15x20 inches</option>
-                  <option value="3">18x24 inches</option>
-                </select>
-              </div>
-            </div>
-            <div class="details__meta">
-              <div class="meta__list">
-                <p class="form-label">Quantity:</p>
-                <input type="number" class="quantity" value="3" />
-              </div>
-            </div>
-          </div>
 
-          <div style="display: block; justify-content: space-between;">
-            <div class="details__action">
-              <!-- <input type="number" class="quantity" value="3" /> -->
-              <a href="#" class="btns btn--sm">Add To Cart</a>
-              <!-- <a href="#" class="details__action-btn">
+            <div style="display: flex; justify-content: space-between;">
+              <div class="details__meta">
+                <div class="meta__list">
+                  <p class="form-label">Select Print Type:</p>
+                  <select id="quantitySelect">
+                    <option value="1">Acrylic Media</option>
+                    <option value="2">Photo Paper Media</option>
+                    <option value="3">Canvas Media</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- <span class="details__size-title">Size</span> -->
+              <div class="details__meta">
+                <div class="meta__list">
+                  <p class="form-label">Size:</p>
+                  <select id="quantitySelect">
+                    <option value="1">12x18 inches</option>
+                    <option value="2">15x20 inches</option>
+                    <option value="3">18x24 inches</option>
+                  </select>
+                </div>
+              </div>
+              <div class="details__meta">
+                <div class="meta__list">
+                  <p class="form-label">Quantity:</p>
+                  <input type="number" class="quantity" value="3" />
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+            <div class="details__meta">
+              <div class="meta__list">
+                <p class="form-label">Make It Special:</p>
+              </div>
+            </div>
+
+            <section class="new__arrivals container section">
+
+              <div class="new__container swiper">
+                <div class="swiper-wrapper">
+                  <div class="product__item swiper-slide" data-aos="flip-right">
+                    <div class="product__banner">
+                      <a href="details.html" class="product__images1">
+                        <img src="assets/img/product2.jpg" alt="" class="product__img2 default" />
+                      </a>
+                      <!-- <div class="product__actions">
+                      <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                        <i class="fa-solid fa-heart"></i>
+                      </a>
+                    </div> -->
+                    </div>
+                    <div class="product__content">
+                      <span class="product__category">Frames</span>
+                      <a href="details.html">
+                        <h3 class="product__title">Family</h3>
+                      </a>
+
+                      <div class="product__price flex">
+                        <span class="new__price">$238.85</span>
+
+                        <!-- <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                        <i class="fas fa-shopping-cart"></i>
+                      </a> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product__item swiper-slide" data-aos="flip-right">
+                    <div class="product__banner">
+                      <a href="details.html" class="product__images1">
+                        <img src="assets/img/product3.jpg" alt="" class="product__img2 default" />
+                      </a>
+
+                    </div>
+                    <div class="product__content">
+                      <span class="product__category">Frames</span>
+                      <a href="details.html">
+                        <h3 class="product__title">Couples</h3>
+                      </a>
+
+                      <div class="product__price flex">
+                        <span class="new__price">$238.85</span>
+
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="product__item swiper-slide" data-aos="flip-right">
+                    <div class="product__banner">
+                      <a href="details.html" class="product__images1">
+                        <img src="assets/img/product6.jpg" alt="" class="product__img2 default" />
+
+                      </a>
+
+
+                    </div>
+                    <div class="product__content">
+                      <span class="product__category">Frames</span>
+                      <a href="details.html">
+                        <h3 class="product__title">Birthday</h3>
+                      </a>
+                      <div class="product__price flex">
+                        <span class="new__price">$238.85</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product__item swiper-slide" data-aos="flip-right">
+                    <div class="product__banner">
+                      <a href="details.html" class="product__images1">
+                        <img src="assets/img/product-1-4.jpg" alt="" class="product__img2 default" />
+                      </a>
+                    </div>
+                    <div class="product__content">
+                      <span class="product__category">Frames</span>
+                      <a href="details.html">
+                        <h3 class="product__title">collegous</h3>
+                      </a>
+
+                      <div class="product__price flex">
+                        <span class="new__price">$238.85</span>
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-prev">
+                  <i class="fi fi-rs-angle-left"></i>
+                </div>
+                <div class="swiper-button-next">
+                  <i class="fi fi-rs-angle-right"></i>
+                </div>
+              </div>
+            </section>
+
+
+            <section id="faq" class="">
+              <div data-aos="fade-up">
+                <div class="details__meta">
+                  <div class="meta__list">
+                    <p class="form-label">Get Offers:</p>
+                  </div>
+                </div>
+    
+                <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                  <div class="col-lg-10">
+
+                    <div class="accordion accordion-flush" id="faqlist">
+                      <div class="accordion-item">
+                        <h3 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq-content-1">
+                            
+                            Get Flat 10% off, for first time users
+                          </button>
+                        </h3>
+                        <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                          <div class="accordion-body">
+                            Terms & Conditions
+
+                            Code is valid for the first time buyers only
+                            Code can be used one time per user only
+                            A minimum order value of ₹699 is required to be eligible for this offer
+                            Max discount of ₹100 can be availed
+                            Discount is not applicable on shipping fees
+                            Offer is not applicable on gold & silver items, electronics and gift cards
+                            Offer is for a limited time period only & can be modified or discontinued without prior
+                            intimation
+                            Offer cannot be clubbed with any other ongoing offers or codes
+                          </div>
+                        </div>
+                      </div><!-- # Faq item-->
+
+                      <div class="accordion-item">
+                        <h3 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq-content-2">
+                            
+                            Get Flat 15% Cashback, Use Code LOYAL
+                          </button>
+                        </h3>
+                        <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                          <div class="accordion-body">
+                            Terms & Conditions
+
+                            A minimum order value of ₹599 is required to be eligible for this offer
+                            Max discount of ₹200 can be availed
+                            Cashback is valid upto 90 days
+                            Discount is not applicable on shipping fees
+                            Offer is not applicable on gold & silver items, electronics and gift cards
+                            Offer is for a limited time period only & can be modified or discontinued without prior
+                            intimation
+                            Offer cannot be clubbed with any other ongoing offers or codes
+                          </div>
+                        </div>
+                      </div><!-- # Faq item-->
+
+                      <div class="accordion-item">
+                        <h3 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq-content-3">
+                            
+                            Flat 5% cashback upto INR 750 (New user to Simpl)
+
+                          </button>
+                        </h3>
+                        <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                          <div class="accordion-body">
+                            Terms & Conditions
+
+                            Get 5% cashback up to INR 750 on your first transaction on Simpl
+                            A minimum order value of INR 749 is required to be eligible for this offer
+                            Offer valid once per user on Simpl, during the offer period
+                            Offer is valid only for New Users to Simpl
+                            Offer valid from 1st March to 31st March 2024
+                            No coupon code is required
+                            Eligible cashback amount and details will reflect in the user's Simpl account, within 5
+                            minutes of a successful transaction
+                            The eligible amount will be credited to a user’s Simpl account post settlement of the
+                            current dues
+                            Cashback will be cancelled in case of full refunds or cancellation of orders
+                            To check your transaction history and cashback amount, download the Simpl App available on
+                            Google Play Store & the App store
+                            Happy to assist you with further concerns. Please write to help@getsimpl.com. Or chat with
+                            the Simpl team on the Simpl app
+                          </div>
+                        </div>
+                      </div><!-- # Faq item-->
+
+                      <div class="accordion-item">
+                        <h3 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq-content-4">
+                            
+                            Get upto 15% cashback on a transaction with Mobikwik wallet!
+                          </button>
+                        </h3>
+                        <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                          <div class="accordion-body">
+                            
+                            Terms & Conditions
+
+                            Get upto 15% cashback on a transaction with Mobikwik wallet!
+                            Transaction to be done through Mobikwik wallet only.
+                            Offer can be availed on a minimum transaction of INR 800/-
+                            Validity till 29th February 2024.
+                          </div>
+                        </div>
+                      </div><!-- # Faq item-->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <div style="display: flex; justify-content: space-between;">
+              <div class="details__action">
+                <!-- <input type="number" class="quantity" value="3" /> -->
+                <a href="#" class="btns btn--sm">Add To Cart</a>
+                <!-- <a href="#" class="details__action-btn">
                 <i class="fi fi-rs-heart"></i>
               </a> -->
-            </div>
+              </div>
 
-            <div class="details__action">
-              <!-- <input type="number" class="quantity" value="3" /> -->
-              <a href="#" class="btns1 btn--sm">Buy Now</a>
+              <div class="details__action">
+                <!-- <input type="number" class="quantity" value="3" /> -->
+                <a href="#" class="btns1 btn--sm">Buy Now</a>
+              </div>
             </div>
           </div>
         </div>
@@ -601,6 +841,13 @@
   <!--=============== SWIPER JS ===============-->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script></script>
 
   <!--=============== MAIN JS ===============-->

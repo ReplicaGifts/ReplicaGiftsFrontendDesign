@@ -667,8 +667,6 @@ header {
   line-height: 35px;
 }
 
-
-
 .icon-sm {
   width: 25px;
   cursor: pointer;
@@ -3040,7 +3038,7 @@ main .main-content {
   display: flex;
   /* padding: 50px; */
   /* padding-bottom: 60px; */
-  
+
 }
 
 main .main-content h3 {
@@ -3051,10 +3049,10 @@ main .main-content h3 {
   border-radius: 4px;
 }
 
-.icon-big{
- width: 40px;
- height: 35px;
- padding-right: 5px;
+.icon-big {
+  width: 40px;
+  height: 35px;
+  padding-right: 5px;
 }
 
 main .sidebar {

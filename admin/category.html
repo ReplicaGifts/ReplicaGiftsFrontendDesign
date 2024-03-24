@@ -23,7 +23,7 @@
 
 <body>
 	<!--=============== HEADER ===============-->
-	
+
 
 
 	<!--=============== MAIN ===============-->
@@ -37,78 +37,66 @@
         </ul>
       </section> -->
 
-	  <div class="main-content">
+		<div class="main-content">
 
-		<div class="sidebar">
-			<h3><img class="icon-big" src="view-dashboard.svg" alt="Icon">Dashboard</h3>
-			<ul>
-				<li><a class="active" href="index.html"><img class="footer__social-icon" src="home.svg"
-							alt="Icon">Home</a></li>
-				<li><a href="order.html"> <img class="footer__social-icon" src="account-circle-outline.svg"
-							alt="Icon">Order</a></li>
-				<li><a href="product.html"><img class="footer__social-icon" src="put-out-the-chart-svgrepo-com.svg"
-							alt="Icon">Product</a></li>
-				<li><a href="category.html"><img class="footer__social-icon" src="noun-category-861639.svg"
-							alt="Icon">Category</a></li>
-				<li><a href=""><img class="footer__social-icon" src="file-multiple.svg" alt="Icon">Users</a></li>
-			</ul>
-		</div>
+			<div class="sidebar">
+				<h3><img class="icon-big" src="view-dashboard.svg" alt="Icon">Dashboard</h3>
+				<ul>
+					<li><a class="active" href="index.html"><img class="footer__social-icon" src="home.svg"
+								alt="Icon">Home</a></li>
+					<li><a href="order.html"> <img class="footer__social-icon" src="account-circle-outline.svg"
+								alt="Icon">Order</a></li>
+					<li><a href="product.html"><img class="footer__social-icon" src="put-out-the-chart-svgrepo-com.svg"
+								alt="Icon">Product</a></li>
+					<li><a href="category.html"><img class="footer__social-icon" src="noun-category-861639.svg"
+								alt="Icon">Category</a></li>
+					<li><a href=""><img class="footer__social-icon" src="file-multiple.svg" alt="Icon">Users</a></li>
+				</ul>
+			</div>
 
-		<div class="content dashboard">
-			<header>
-				<nav class="nav container">
-					<a href="index.html" class="nav__logo">
+			<div class="content dashboard">
+				<header>
+					<nav class="nav container">
+						<a href="index.html" class="nav__logo">
 
-						<p class="onetext">REPLICA</p>
-						<p class="twotext">GIFTS</p>
-					</a>
-					<!-- <div class="header__top">
-					<div class="header__container container">
-						
-					
-						<div>
-							<a href="login-register.html" class="header__top-action">
-								Log In / Sign Up
-							</a>
+							<p class="onetext">REPLICA</p>
+							<p class="twotext">GIFTS</p>
+						</a>
+					</nav>
+					<div class="account-info">
+						<img class="icon-sm" src="bell-ring-outline.svg" alt="Notify">
+						<div class="img-cropper-sm">
+							<img class="profile-pic-sm" src="avatar-hombre-tupe.jpg" alt="Profile Pic">
 						</div>
+						<p class="account-name">Jabez Raja</p>
 					</div>
-				</div> -->
 
-				</nav>
-				<div class="account-info">
-					<img class="icon-sm" src="bell-ring-outline.svg" alt="Notify">
-					<div class="img-cropper-sm">
-						<img class="profile-pic-sm" src="avatar-hombre-tupe.jpg" alt="Profile Pic">
-					</div>
-					<p class="account-name">Jabez Raja</p>
-				</div>
+				</header>
+				<div class="content">
+					<h4>Category</h4>
+					<div class="content-data">
+						<div class="content-form">
+							<form id="addProductForm">
+								<div class="form-group">
+									<!-- HTML Structure -->
+									<div class="form-group">
+										<label>Enter category name:</label>
+										<input type="text" placeholder="Placeholder" id="categoryNameInput" />
+									</div>
+									<div class="form-group">
+										<label>Enter category Description:</label>
+										<input type="text" placeholder="Placeholder" id="categoryDescriptionInput" />
+									</div>
 
-			</header>
-			<div class="content">
-				<h4>Category</h4>
-				<div class="content-data">
-					<div class="content-form">
-						<form id="addProductForm">
-							<div class="form-group">
-						<!-- HTML Structure -->
-						<div class="form-group">
-    <label>Enter category name:</label>
-    <input type="text" placeholder="Placeholder" id="categoryNameInput" />
-						</div>
-<div class="form-group">
-    <label>Enter category Description:</label>
-    <input type="text" placeholder="Placeholder" id="categoryDescriptionInput" />
-</div>
+									<strong>Upload Thumbnail</strong>
+									<div class="form-group">
+										<input type="file" class="form-control input-file" id="thumbnailInput" />
+									</div>
 
-<strong>Upload Thumbnail</strong>
-<div class="form-group">
-    <input type="file" class="form-control input-file" id="thumbnailInput" />
-</div>
+									<a href="shop.html" class="btns">Submit</a>
 
-<a href="shop.html" class="btns">Submit</a>
-
-					</div>
-					<!-- <div class="content-detail">
+								</div>
+								<!-- <div class="content-detail">
 						<h4>All Categories</h4>
 						<table>
 							<thead>
@@ -129,9 +117,9 @@
 							</tbody>
 						</table>
 					</div> -->
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>		
 
 	</main> <!-- Main Area -->
 
@@ -153,75 +141,75 @@
 	</main>
 
 	<!--=============== FOOTER ===============-->
-	
 
 
-<script>
 
-// document.addEventListener("DOMContentLoaded", function() {
-    // Function to add thumbnail
-    // function addThumbnail(event) {
-    //     const file = event.target.files[0];
-    //     // Add validation for file type, size, etc.
-    //     if (!file) return; // No file selected
+	<script>
 
-    //     // // You can display a preview of the image here if needed
-    //     // const reader = new FileReader();
-    //     // reader.onload = function() {
-    //     //     // Display image preview
-    //     //     const preview = document.getElementById("thumbnailPreview");
-    //     //     preview.src = reader.result;
-    //     // }
-    //     // reader.readAsDataURL(file);
+		// document.addEventListener("DOMContentLoaded", function() {
+		// Function to add thumbnail
+		// function addThumbnail(event) {
+		//     const file = event.target.files[0];
+		//     // Add validation for file type, size, etc.
+		//     if (!file) return; // No file selected
 
-    //     // Set the file in categoryData
-    //     categoryData.thumbnail = file;
-    // }
+		//     // // You can display a preview of the image here if needed
+		//     // const reader = new FileReader();
+		//     // reader.onload = function() {
+		//     //     // Display image preview
+		//     //     const preview = document.getElementById("thumbnailPreview");
+		//     //     preview.src = reader.result;
+		//     // }
+		//     // reader.readAsDataURL(file);
 
-    // Function to handle form submission
-    function submit() {
-        // Extract data from inputs
-        const categoryName = document.getElementById("categoryNameInput").value;
-        const description = document.getElementById("categoryDescriptionInput").value;
-		const file = document.getElementById("thumbnailInput")?.files[0];
-        // Perform validation if needed
+		//     // Set the file in categoryData
+		//     categoryData.thumbnail = file;
+		// }
 
-        // Create form data
-        const formData = new FormData();
-        formData.append("categoryName", categoryName);
-        formData.append("description", description);
-        formData.append("thumbnail", file);
+		// Function to handle form submission
+		function submit() {
+			// Extract data from inputs
+			const categoryName = document.getElementById("categoryNameInput").value;
+			const description = document.getElementById("categoryDescriptionInput").value;
+			const file = document.getElementById("thumbnailInput")?.files[0];
+			// Perform validation if needed
 
-        // Send form data to server using fetch API or XMLHttpRequest
-        fetch("http://localhost:3000/api/category/add-category", {
-            method: "POST",
-            body: formData
-        })
-        .then(response => {
-            if (!response.ok) {
-                throw new Error("Network response was not ok");
-            }
-            return response.json();
-        })
-        .then(data => {
-            // Handle successful response
-            console.log(data);
-            // Redirect or show success message
-        })
-        .catch(error => {
-            // Handle errors
-            console.error('There was an error!', error);
-            // Show error message to the user
-        });
-    }
+			// Create form data
+			const formData = new FormData();
+			formData.append("categoryName", categoryName);
+			formData.append("description", description);
+			formData.append("thumbnail", file);
 
-    // Event listeners
-    // document.getElementById("thumbnailInput").addEventListener("change", addThumbnail);
-    // document.getElementById("submitButton").addEventListener("click", submit);
-// });
+			// Send form data to server using fetch API or XMLHttpRequest
+			fetch("http://localhost:3000/api/category/add-category", {
+				method: "POST",
+				body: formData
+			})
+				.then(response => {
+					if (!response.ok) {
+						throw new Error("Network response was not ok");
+					}
+					return response.json();
+				})
+				.then(data => {
+					// Handle successful response
+					console.log(data);
+					// Redirect or show success message
+				})
+				.catch(error => {
+					// Handle errors
+					console.error('There was an error!', error);
+					// Show error message to the user
+				});
+		}
+
+		// Event listeners
+		// document.getElementById("thumbnailInput").addEventListener("change", addThumbnail);
+		// document.getElementById("submitButton").addEventListener("click", submit);
+		// });
 
 
-</script>
+	</script>
 
 
 
